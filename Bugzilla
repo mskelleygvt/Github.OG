@@ -1,0 +1,1194 @@
+<bugzilla version="20230927.1" urlbase="https://bugzilla.mozilla.org/" maintainer="bmo-mods@mozilla.com">
+<bug>
+<bug_id>1804303</bug_id>
+<filed_via>standard_form</filed_via>
+<creation_ts>2022-12-06 11:30:00 -0800</creation_ts>
+<short_desc>
+force an update to channel-prefs.js in 109 for release users on mac
+</short_desc>
+<delta_ts>2023-05-25 06:13:17 -0700</delta_ts>
+<reporter_accessible>1</reporter_accessible>
+<cclist_accessible>1</cclist_accessible>
+<classification_id>5</classification_id>
+<classification>Other</classification>
+<product>Release Engineering</product>
+<component>Release Requests</component>
+<version>unspecified</version>
+<rep_platform>Unspecified</rep_platform>
+<op_sys>Unspecified</op_sys>
+<bug_type>task</bug_type>
+<bug_status>RESOLVED</bug_status>
+<resolution>FIXED</resolution>
+<see_also>
+https://bugzilla.mozilla.org/show_bug.cgi?id=1799332
+</see_also>
+<bug_file_loc/>
+<status_whiteboard/>
+<keywords>leave-open</keywords>
+<priority>--</priority>
+<bug_severity>--</bug_severity>
+<target_milestone>---</target_milestone>
+<everconfirmed>1</everconfirmed>
+<reporter name="bhearsum@mozilla.com (:bhearsum)">bhearsum</reporter>
+<assigned_to name="Julien Cristau [:jcristau]">jcristau</assigned_to>
+<cc>atrif</cc>
+<cc>bhearsum</cc>
+<cc>bytesized</cc>
+<cc>csasca</cc>
+<cc>dmeehan</cc>
+<cc>dsmith</cc>
+<cc>jcristau</cc>
+<cc>pascalc</cc>
+<cc>ryanvm</cc>
+<qa_contact name="Julien Cristau [:jcristau]">jcristau</qa_contact>
+<cf_accessibility_severity>---</cf_accessibility_severity>
+<cf_a11y_review_project_flag>---</cf_a11y_review_project_flag>
+<cf_performance_impact>---</cf_performance_impact>
+<cf_backlog>---</cf_backlog>
+<cf_tracking_p11>---</cf_tracking_p11>
+<cf_data_science_product_support_area>---</cf_data_science_product_support_area>
+<cf_firefox_messaging_system>---</cf_firefox_messaging_system>
+<cf_tracking_win>---</cf_tracking_win>
+<cf_geckoview>---</cf_geckoview>
+<cf_platform_rel>---</cf_platform_rel>
+<cf_tracking_e10s>---</cf_tracking_e10s>
+<cf_webcompat_priority>---</cf_webcompat_priority>
+<cf_bmo_component_move>---</cf_bmo_component_move>
+<cf_root_cause>---</cf_root_cause>
+<cf_blocking_webextensions>---</cf_blocking_webextensions>
+<cf_tracking_firefox5>---</cf_tracking_firefox5>
+<cf_status_firefox5>---</cf_status_firefox5>
+<cf_tracking_firefox6>---</cf_tracking_firefox6>
+<cf_status_firefox6>---</cf_status_firefox6>
+<cf_tracking_firefox7>---</cf_tracking_firefox7>
+<cf_status_firefox7>---</cf_status_firefox7>
+<cf_tracking_firefox8>---</cf_tracking_firefox8>
+<cf_status_firefox8>---</cf_status_firefox8>
+<cf_tracking_firefox9>---</cf_tracking_firefox9>
+<cf_status_firefox9>---</cf_status_firefox9>
+<cf_tracking_firefox10>---</cf_tracking_firefox10>
+<cf_status_firefox10>---</cf_status_firefox10>
+<cf_tracking_firefox11>---</cf_tracking_firefox11>
+<cf_status_firefox11>---</cf_status_firefox11>
+<cf_tracking_firefox12>---</cf_tracking_firefox12>
+<cf_status_firefox12>---</cf_status_firefox12>
+<cf_tracking_firefox13>---</cf_tracking_firefox13>
+<cf_status_firefox13>---</cf_status_firefox13>
+<cf_tracking_firefox14>---</cf_tracking_firefox14>
+<cf_status_firefox14>---</cf_status_firefox14>
+<cf_tracking_firefox15>---</cf_tracking_firefox15>
+<cf_status_firefox15>---</cf_status_firefox15>
+<cf_tracking_firefox16>---</cf_tracking_firefox16>
+<cf_status_firefox16>---</cf_status_firefox16>
+<cf_tracking_firefox17>---</cf_tracking_firefox17>
+<cf_status_firefox17>---</cf_status_firefox17>
+<cf_tracking_firefox18>---</cf_tracking_firefox18>
+<cf_status_firefox18>---</cf_status_firefox18>
+<cf_tracking_firefox19>---</cf_tracking_firefox19>
+<cf_status_firefox19>---</cf_status_firefox19>
+<cf_tracking_firefox20>---</cf_tracking_firefox20>
+<cf_status_firefox20>---</cf_status_firefox20>
+<cf_tracking_firefox21>---</cf_tracking_firefox21>
+<cf_status_firefox21>---</cf_status_firefox21>
+<cf_tracking_firefox22>---</cf_tracking_firefox22>
+<cf_status_firefox22>---</cf_status_firefox22>
+<cf_tracking_firefox23>---</cf_tracking_firefox23>
+<cf_status_firefox23>---</cf_status_firefox23>
+<cf_tracking_firefox24>---</cf_tracking_firefox24>
+<cf_status_firefox24>---</cf_status_firefox24>
+<cf_tracking_firefox25>---</cf_tracking_firefox25>
+<cf_status_firefox25>---</cf_status_firefox25>
+<cf_tracking_firefox26>---</cf_tracking_firefox26>
+<cf_status_firefox26>---</cf_status_firefox26>
+<cf_tracking_firefox27>---</cf_tracking_firefox27>
+<cf_status_firefox27>---</cf_status_firefox27>
+<cf_tracking_firefox28>---</cf_tracking_firefox28>
+<cf_status_firefox28>---</cf_status_firefox28>
+<cf_tracking_firefox29>---</cf_tracking_firefox29>
+<cf_status_firefox29>---</cf_status_firefox29>
+<cf_tracking_firefox30>---</cf_tracking_firefox30>
+<cf_status_firefox30>---</cf_status_firefox30>
+<cf_tracking_firefox31>---</cf_tracking_firefox31>
+<cf_status_firefox31>---</cf_status_firefox31>
+<cf_tracking_firefox32>---</cf_tracking_firefox32>
+<cf_status_firefox32>---</cf_status_firefox32>
+<cf_tracking_firefox33>---</cf_tracking_firefox33>
+<cf_status_firefox33>---</cf_status_firefox33>
+<cf_tracking_firefox34>---</cf_tracking_firefox34>
+<cf_status_firefox34>---</cf_status_firefox34>
+<cf_tracking_firefox35>---</cf_tracking_firefox35>
+<cf_status_firefox35>---</cf_status_firefox35>
+<cf_tracking_firefox36>---</cf_tracking_firefox36>
+<cf_status_firefox36>---</cf_status_firefox36>
+<cf_tracking_firefox37>---</cf_tracking_firefox37>
+<cf_status_firefox37>---</cf_status_firefox37>
+<cf_tracking_firefox38>---</cf_tracking_firefox38>
+<cf_status_firefox38>---</cf_status_firefox38>
+<cf_tracking_firefox38_0_5>---</cf_tracking_firefox38_0_5>
+<cf_tracking_firefox39>---</cf_tracking_firefox39>
+<cf_status_firefox38_0_5>---</cf_status_firefox38_0_5>
+<cf_status_firefox39>---</cf_status_firefox39>
+<cf_tracking_firefox40>---</cf_tracking_firefox40>
+<cf_status_firefox40>---</cf_status_firefox40>
+<cf_tracking_firefox41>---</cf_tracking_firefox41>
+<cf_status_firefox41>---</cf_status_firefox41>
+<cf_tracking_firefox42>---</cf_tracking_firefox42>
+<cf_status_firefox42>---</cf_status_firefox42>
+<cf_tracking_firefox43>---</cf_tracking_firefox43>
+<cf_status_firefox43>---</cf_status_firefox43>
+<cf_tracking_firefox44>---</cf_tracking_firefox44>
+<cf_status_firefox44>---</cf_status_firefox44>
+<cf_tracking_firefox45>---</cf_tracking_firefox45>
+<cf_status_firefox45>---</cf_status_firefox45>
+<cf_tracking_firefox46>---</cf_tracking_firefox46>
+<cf_status_firefox46>---</cf_status_firefox46>
+<cf_tracking_firefox47>---</cf_tracking_firefox47>
+<cf_status_firefox47>---</cf_status_firefox47>
+<cf_tracking_firefox48>---</cf_tracking_firefox48>
+<cf_status_firefox48>---</cf_status_firefox48>
+<cf_tracking_firefox49>---</cf_tracking_firefox49>
+<cf_status_firefox49>---</cf_status_firefox49>
+<cf_tracking_esr10>---</cf_tracking_esr10>
+<cf_status_esr10>---</cf_status_esr10>
+<cf_tracking_firefox_esr17>---</cf_tracking_firefox_esr17>
+<cf_status_firefox_esr17>---</cf_status_firefox_esr17>
+<cf_tracking_firefox_esr24>---</cf_tracking_firefox_esr24>
+<cf_status_firefox_esr24>---</cf_status_firefox_esr24>
+<cf_tracking_firefox_esr31>---</cf_tracking_firefox_esr31>
+<cf_status_firefox_esr31>---</cf_status_firefox_esr31>
+<cf_tracking_firefox_esr38>---</cf_tracking_firefox_esr38>
+<cf_status_firefox_esr38>---</cf_status_firefox_esr38>
+<cf_tracking_firefox_esr45>---</cf_tracking_firefox_esr45>
+<cf_status_firefox_esr45>---</cf_status_firefox_esr45>
+<cf_tracking_b2g18>---</cf_tracking_b2g18>
+<cf_status_b2g18>---</cf_status_b2g18>
+<cf_status_b2g30>---</cf_status_b2g30>
+<cf_status_b2g18_1_0_0>---</cf_status_b2g18_1_0_0>
+<cf_status_b2g18_1_0_1>---</cf_status_b2g18_1_0_1>
+<cf_status_b2g_1_1_hd>---</cf_status_b2g_1_1_hd>
+<cf_tracking_b2g_v1_2>---</cf_tracking_b2g_v1_2>
+<cf_status_b2g_1_2>---</cf_status_b2g_1_2>
+<cf_tracking_b2g_v1_3>---</cf_tracking_b2g_v1_3>
+<cf_status_b2g_1_3>---</cf_status_b2g_1_3>
+<cf_status_b2g_1_3t>---</cf_status_b2g_1_3t>
+<cf_blocking_20>---</cf_blocking_20>
+<cf_status_b2g_1_4>---</cf_status_b2g_1_4>
+<cf_status_20>---</cf_status_20>
+<cf_status_b2g_2_0>---</cf_status_b2g_2_0>
+<cf_status_b2g_2_0m>---</cf_status_b2g_2_0m>
+<cf_status_b2g_2_1>---</cf_status_b2g_2_1>
+<cf_status_b2g_2_1_s>---</cf_status_b2g_2_1_s>
+<cf_status_b2g_2_2>---</cf_status_b2g_2_2>
+<cf_status_b2g_2_5>---</cf_status_b2g_2_5>
+<cf_status_b2g_2_6>---</cf_status_b2g_2_6>
+<cf_status_b2g_2_2r>---</cf_status_b2g_2_2r>
+<cf_blocking_192>---</cf_blocking_192>
+<cf_status_192>---</cf_status_192>
+<cf_blocking_191>---</cf_blocking_191>
+<cf_status_b2g_master>---</cf_status_b2g_master>
+<cf_blocking_fx>---</cf_blocking_fx>
+<cf_tracking_firefox_relnote>---</cf_tracking_firefox_relnote>
+<cf_status_191>---</cf_status_191>
+<cf_tracking_relnote_b2g>---</cf_tracking_relnote_b2g>
+<cf_tracking_firefox_sumo>---</cf_tracking_firefox_sumo>
+<cf_blocking_fennec10>---</cf_blocking_fennec10>
+<cf_blocking_fennec>---</cf_blocking_fennec>
+<cf_blocking_thunderbird33>---</cf_blocking_thunderbird33>
+<cf_status_thunderbird33>---</cf_status_thunderbird33>
+<cf_blocking_thunderbird32>---</cf_blocking_thunderbird32>
+<cf_status_thunderbird32>---</cf_status_thunderbird32>
+<cf_blocking_thunderbird31>---</cf_blocking_thunderbird31>
+<cf_status_thunderbird31>---</cf_status_thunderbird31>
+<cf_blocking_thunderbird30>---</cf_blocking_thunderbird30>
+<cf_status_thunderbird30>---</cf_status_thunderbird30>
+<cf_tracking_thunderbird6>---</cf_tracking_thunderbird6>
+<cf_status_thunderbird6>---</cf_status_thunderbird6>
+<cf_tracking_thunderbird7>---</cf_tracking_thunderbird7>
+<cf_status_thunderbird7>---</cf_status_thunderbird7>
+<cf_tracking_thunderbird8>---</cf_tracking_thunderbird8>
+<cf_status_thunderbird8>---</cf_status_thunderbird8>
+<cf_tracking_thunderbird9>---</cf_tracking_thunderbird9>
+<cf_status_thunderbird9>---</cf_status_thunderbird9>
+<cf_tracking_thunderbird10>---</cf_tracking_thunderbird10>
+<cf_status_thunderbird10>---</cf_status_thunderbird10>
+<cf_tracking_thunderbird11>---</cf_tracking_thunderbird11>
+<cf_status_thunderbird11>---</cf_status_thunderbird11>
+<cf_tracking_thunderbird12>---</cf_tracking_thunderbird12>
+<cf_status_thunderbird12>---</cf_status_thunderbird12>
+<cf_tracking_thunderbird13>---</cf_tracking_thunderbird13>
+<cf_status_thunderbird13>---</cf_status_thunderbird13>
+<cf_tracking_thunderbird14>---</cf_tracking_thunderbird14>
+<cf_status_thunderbird14>---</cf_status_thunderbird14>
+<cf_tracking_thunderbird15>---</cf_tracking_thunderbird15>
+<cf_status_thunderbird15>---</cf_status_thunderbird15>
+<cf_tracking_thunderbird16>---</cf_tracking_thunderbird16>
+<cf_status_thunderbird16>---</cf_status_thunderbird16>
+<cf_tracking_thunderbird17>---</cf_tracking_thunderbird17>
+<cf_status_thunderbird17>---</cf_status_thunderbird17>
+<cf_tracking_thunderbird18>---</cf_tracking_thunderbird18>
+<cf_status_thunderbird18>---</cf_status_thunderbird18>
+<cf_tracking_thunderbird19>---</cf_tracking_thunderbird19>
+<cf_status_thunderbird19>---</cf_status_thunderbird19>
+<cf_tracking_thunderbird20>---</cf_tracking_thunderbird20>
+<cf_status_thunderbird20>---</cf_status_thunderbird20>
+<cf_tracking_thunderbird21>---</cf_tracking_thunderbird21>
+<cf_status_thunderbird21>---</cf_status_thunderbird21>
+<cf_tracking_thunderbird22>---</cf_tracking_thunderbird22>
+<cf_status_thunderbird22>---</cf_status_thunderbird22>
+<cf_tracking_thunderbird23>---</cf_tracking_thunderbird23>
+<cf_status_thunderbird23>---</cf_status_thunderbird23>
+<cf_tracking_thunderbird24>---</cf_tracking_thunderbird24>
+<cf_status_thunderbird24>---</cf_status_thunderbird24>
+<cf_tracking_thunderbird25>---</cf_tracking_thunderbird25>
+<cf_status_thunderbird25>---</cf_status_thunderbird25>
+<cf_tracking_thunderbird26>---</cf_tracking_thunderbird26>
+<cf_status_thunderbird26>---</cf_status_thunderbird26>
+<cf_tracking_thunderbird27>---</cf_tracking_thunderbird27>
+<cf_status_thunderbird27>---</cf_status_thunderbird27>
+<cf_tracking_thunderbird28>---</cf_tracking_thunderbird28>
+<cf_status_thunderbird28>---</cf_status_thunderbird28>
+<cf_tracking_thunderbird29>---</cf_tracking_thunderbird29>
+<cf_status_thunderbird29>---</cf_status_thunderbird29>
+<cf_tracking_thunderbird_30>---</cf_tracking_thunderbird_30>
+<cf_status_thunderbird_30>---</cf_status_thunderbird_30>
+<cf_tracking_thunderbird_31>---</cf_tracking_thunderbird_31>
+<cf_status_thunderbird_31>---</cf_status_thunderbird_31>
+<cf_tracking_thunderbird_32>---</cf_tracking_thunderbird_32>
+<cf_status_thunderbird_32>---</cf_status_thunderbird_32>
+<cf_tracking_thunderbird_esr10>---</cf_tracking_thunderbird_esr10>
+<cf_status_thunderbird_esr10>---</cf_status_thunderbird_esr10>
+<cf_tracking_thunderbird_esr17>---</cf_tracking_thunderbird_esr17>
+<cf_status_thunderbird_esr17>---</cf_status_thunderbird_esr17>
+<cf_tracking_thunderbird_33>---</cf_tracking_thunderbird_33>
+<cf_status_thunderbird_33>---</cf_status_thunderbird_33>
+<cf_tracking_thunderbird_34>---</cf_tracking_thunderbird_34>
+<cf_status_thunderbird_34>---</cf_status_thunderbird_34>
+<cf_tracking_thunderbird_35>---</cf_tracking_thunderbird_35>
+<cf_status_thunderbird_35>---</cf_status_thunderbird_35>
+<cf_tracking_thunderbird_36>---</cf_tracking_thunderbird_36>
+<cf_status_thunderbird_36>---</cf_status_thunderbird_36>
+<cf_tracking_thunderbird_37>---</cf_tracking_thunderbird_37>
+<cf_status_thunderbird_37>---</cf_status_thunderbird_37>
+<cf_tracking_thunderbird_38>---</cf_tracking_thunderbird_38>
+<cf_status_thunderbird_38>---</cf_status_thunderbird_38>
+<cf_tracking_thunderbird_39>---</cf_tracking_thunderbird_39>
+<cf_status_thunderbird_39>---</cf_status_thunderbird_39>
+<cf_tracking_thunderbird_40>---</cf_tracking_thunderbird_40>
+<cf_status_thunderbird_40>---</cf_status_thunderbird_40>
+<cf_blocking_seamonkey21>---</cf_blocking_seamonkey21>
+<cf_tracking_thunderbird_41>---</cf_tracking_thunderbird_41>
+<cf_status_seamonkey21>---</cf_status_seamonkey21>
+<cf_status_thunderbird_41>---</cf_status_thunderbird_41>
+<cf_tracking_thunderbird_42>---</cf_tracking_thunderbird_42>
+<cf_tracking_seamonkey22>---</cf_tracking_seamonkey22>
+<cf_status_seamonkey22>---</cf_status_seamonkey22>
+<cf_status_thunderbird_42>---</cf_status_thunderbird_42>
+<cf_tracking_seamonkey23>---</cf_tracking_seamonkey23>
+<cf_tracking_thunderbird_43>---</cf_tracking_thunderbird_43>
+<cf_status_seamonkey23>---</cf_status_seamonkey23>
+<cf_status_thunderbird_43>---</cf_status_thunderbird_43>
+<cf_tracking_thunderbird_44>---</cf_tracking_thunderbird_44>
+<cf_tracking_seamonkey24>---</cf_tracking_seamonkey24>
+<cf_status_seamonkey24>---</cf_status_seamonkey24>
+<cf_status_thunderbird_44>---</cf_status_thunderbird_44>
+<cf_tracking_seamonkey25>---</cf_tracking_seamonkey25>
+<cf_status_seamonkey25>---</cf_status_seamonkey25>
+<cf_tracking_seamonkey26>---</cf_tracking_seamonkey26>
+<cf_status_seamonkey26>---</cf_status_seamonkey26>
+<cf_tracking_seamonkey27>---</cf_tracking_seamonkey27>
+<cf_status_seamonkey27>---</cf_status_seamonkey27>
+<cf_tracking_seamonkey28>---</cf_tracking_seamonkey28>
+<cf_status_seamonkey28>---</cf_status_seamonkey28>
+<cf_tracking_seamonkey29>---</cf_tracking_seamonkey29>
+<cf_status_seamonkey29>---</cf_status_seamonkey29>
+<cf_tracking_seamonkey210>---</cf_tracking_seamonkey210>
+<cf_status_seamonkey210>---</cf_status_seamonkey210>
+<cf_tracking_seamonkey211>---</cf_tracking_seamonkey211>
+<cf_status_seamonkey211>---</cf_status_seamonkey211>
+<cf_tracking_seamonkey212>---</cf_tracking_seamonkey212>
+<cf_status_seamonkey212>---</cf_status_seamonkey212>
+<cf_tracking_seamonkey213>---</cf_tracking_seamonkey213>
+<cf_status_seamonkey213>---</cf_status_seamonkey213>
+<cf_tracking_seamonkey214>---</cf_tracking_seamonkey214>
+<cf_status_seamonkey214>---</cf_status_seamonkey214>
+<cf_tracking_seamonkey215>---</cf_tracking_seamonkey215>
+<cf_status_seamonkey215>---</cf_status_seamonkey215>
+<cf_tracking_seamonkey216>---</cf_tracking_seamonkey216>
+<cf_status_seamonkey216>---</cf_status_seamonkey216>
+<cf_tracking_seamonkey217>---</cf_tracking_seamonkey217>
+<cf_status_seamonkey217>---</cf_status_seamonkey217>
+<cf_tracking_seamonkey218>---</cf_tracking_seamonkey218>
+<cf_status_seamonkey218>---</cf_status_seamonkey218>
+<cf_tracking_seamonkey219>---</cf_tracking_seamonkey219>
+<cf_status_seamonkey219>---</cf_status_seamonkey219>
+<cf_tracking_seamonkey220>---</cf_tracking_seamonkey220>
+<cf_status_seamonkey220>---</cf_status_seamonkey220>
+<cf_tracking_seamonkey221>---</cf_tracking_seamonkey221>
+<cf_status_seamonkey221>---</cf_status_seamonkey221>
+<cf_tracking_seamonkey222>---</cf_tracking_seamonkey222>
+<cf_status_seamonkey222>---</cf_status_seamonkey222>
+<cf_tracking_seamonkey223>---</cf_tracking_seamonkey223>
+<cf_status_seamonkey223>---</cf_status_seamonkey223>
+<cf_tracking_thunderbird_45>---</cf_tracking_thunderbird_45>
+<cf_tracking_seamonkey224>---</cf_tracking_seamonkey224>
+<cf_status_thunderbird_45>---</cf_status_thunderbird_45>
+<cf_tracking_thunderbird_46>---</cf_tracking_thunderbird_46>
+<cf_status_thunderbird_46>---</cf_status_thunderbird_46>
+<cf_status_seamonkey224>---</cf_status_seamonkey224>
+<cf_tracking_thunderbird_47>---</cf_tracking_thunderbird_47>
+<cf_status_thunderbird_47>---</cf_status_thunderbird_47>
+<cf_tracking_thunderbird_48>---</cf_tracking_thunderbird_48>
+<cf_tracking_seamonkey225>---</cf_tracking_seamonkey225>
+<cf_status_thunderbird_48>---</cf_status_thunderbird_48>
+<cf_tracking_thunderbird_49>---</cf_tracking_thunderbird_49>
+<cf_status_thunderbird_49>---</cf_status_thunderbird_49>
+<cf_tracking_thunderbird_50>---</cf_tracking_thunderbird_50>
+<cf_status_thunderbird_50>---</cf_status_thunderbird_50>
+<cf_status_seamonkey225>---</cf_status_seamonkey225>
+<cf_status_seamonkey226>---</cf_status_seamonkey226>
+<cf_tracking_seamonkey226>---</cf_tracking_seamonkey226>
+<cf_status_seamonkey227>---</cf_status_seamonkey227>
+<cf_tracking_seamonkey227>---</cf_tracking_seamonkey227>
+<cf_status_seamonkey228>---</cf_status_seamonkey228>
+<cf_tracking_seamonkey228>---</cf_tracking_seamonkey228>
+<cf_status_seamonkey229>---</cf_status_seamonkey229>
+<cf_colo_site>---</cf_colo_site>
+<cf_tracking_thunderbird_esr24>---</cf_tracking_thunderbird_esr24>
+<cf_tracking_seamonkey229>---</cf_tracking_seamonkey229>
+<cf_status_thunderbird_esr24>---</cf_status_thunderbird_esr24>
+<cf_tracking_thunderbird_esr31>---</cf_tracking_thunderbird_esr31>
+<cf_status_thunderbird_esr31>---</cf_status_thunderbird_esr31>
+<cf_tracking_thunderbird_esr38>---</cf_tracking_thunderbird_esr38>
+<cf_status_seamonkey230>---</cf_status_seamonkey230>
+<cf_status_thunderbird_esr38>---</cf_status_thunderbird_esr38>
+<cf_tracking_thunderbird_esr45>---</cf_tracking_thunderbird_esr45>
+<cf_status_thunderbird_esr45>---</cf_status_thunderbird_esr45>
+<cf_tracking_thunderbird_esr52>---</cf_tracking_thunderbird_esr52>
+<cf_status_thunderbird_esr52>---</cf_status_thunderbird_esr52>
+<cf_office>---</cf_office>
+<cf_tracking_seamonkey230>---</cf_tracking_seamonkey230>
+<cf_tracking_thunderbird_esr60>---</cf_tracking_thunderbird_esr60>
+<cf_status_thunderbird_esr60>---</cf_status_thunderbird_esr60>
+<cf_status_seamonkey231>---</cf_status_seamonkey231>
+<cf_tracking_thunderbird_esr68>---</cf_tracking_thunderbird_esr68>
+<cf_status_thunderbird_esr68>---</cf_status_thunderbird_esr68>
+<cf_tracking_seamonkey231>---</cf_tracking_seamonkey231>
+<cf_status_seamonkey232>---</cf_status_seamonkey232>
+<cf_tracking_thunderbird_esr78>---</cf_tracking_thunderbird_esr78>
+<cf_status_thunderbird_esr78>---</cf_status_thunderbird_esr78>
+<cf_tracking_thunderbird_51>---</cf_tracking_thunderbird_51>
+<cf_tracking_seamonkey232>---</cf_tracking_seamonkey232>
+<cf_status_thunderbird_51>---</cf_status_thunderbird_51>
+<cf_tracking_thunderbird_52>---</cf_tracking_thunderbird_52>
+<cf_status_thunderbird_52>---</cf_status_thunderbird_52>
+<cf_tracking_thunderbird_esr91>---</cf_tracking_thunderbird_esr91>
+<cf_status_thunderbird_esr91>---</cf_status_thunderbird_esr91>
+<cf_tracking_thunderbird_53>---</cf_tracking_thunderbird_53>
+<cf_tracking_seamonkey233>---</cf_tracking_seamonkey233>
+<cf_status_thunderbird_53>---</cf_status_thunderbird_53>
+<cf_tracking_thunderbird_54>---</cf_tracking_thunderbird_54>
+<cf_status_thunderbird_54>---</cf_status_thunderbird_54>
+<cf_tracking_thunderbird_55>---</cf_tracking_thunderbird_55>
+<cf_tracking_thunderbird_esr102>---</cf_tracking_thunderbird_esr102>
+<cf_status_thunderbird_55>---</cf_status_thunderbird_55>
+<cf_status_thunderbird_esr102>---</cf_status_thunderbird_esr102>
+<cf_status_seamonkey233>---</cf_status_seamonkey233>
+<cf_tracking_thunderbird_56>---</cf_tracking_thunderbird_56>
+<cf_status_thunderbird_56>---</cf_status_thunderbird_56>
+<cf_tracking_thunderbird_esr115>---</cf_tracking_thunderbird_esr115>
+<cf_status_thunderbird_esr115>---</cf_status_thunderbird_esr115>
+<cf_tracking_thunderbird_57>---</cf_tracking_thunderbird_57>
+<cf_tracking_seamonkey234>---</cf_tracking_seamonkey234>
+<cf_status_thunderbird_57>---</cf_status_thunderbird_57>
+<cf_tracking_thunderbird_58>---</cf_tracking_thunderbird_58>
+<cf_status_thunderbird_58>---</cf_status_thunderbird_58>
+<cf_status_seamonkey234>---</cf_status_seamonkey234>
+<cf_tracking_thunderbird_59>---</cf_tracking_thunderbird_59>
+<cf_status_thunderbird_59>---</cf_status_thunderbird_59>
+<cf_tracking_seamonkey235>---</cf_tracking_seamonkey235>
+<cf_tracking_thunderbird_60>---</cf_tracking_thunderbird_60>
+<cf_status_thunderbird_60>---</cf_status_thunderbird_60>
+<cf_status_seamonkey235>---</cf_status_seamonkey235>
+<cf_tracking_thunderbird_61>---</cf_tracking_thunderbird_61>
+<cf_status_thunderbird_61>---</cf_status_thunderbird_61>
+<cf_tracking_seamonkey236>---</cf_tracking_seamonkey236>
+<cf_tracking_thunderbird_62>---</cf_tracking_thunderbird_62>
+<cf_status_thunderbird_62>---</cf_status_thunderbird_62>
+<cf_status_seamonkey236>---</cf_status_seamonkey236>
+<cf_tracking_thunderbird_63>---</cf_tracking_thunderbird_63>
+<cf_status_thunderbird_63>---</cf_status_thunderbird_63>
+<cf_tracking_thunderbird_64>---</cf_tracking_thunderbird_64>
+<cf_status_thunderbird_64>---</cf_status_thunderbird_64>
+<cf_tracking_seamonkey237>---</cf_tracking_seamonkey237>
+<cf_tracking_thunderbird_65>---</cf_tracking_thunderbird_65>
+<cf_status_seamonkey237>---</cf_status_seamonkey237>
+<cf_status_thunderbird_65>---</cf_status_thunderbird_65>
+<cf_tracking_thunderbird_66>---</cf_tracking_thunderbird_66>
+<cf_status_thunderbird_66>---</cf_status_thunderbird_66>
+<cf_tracking_thunderbird_67>---</cf_tracking_thunderbird_67>
+<cf_status_thunderbird_67>---</cf_status_thunderbird_67>
+<cf_tracking_thunderbird_68>---</cf_tracking_thunderbird_68>
+<cf_tracking_seamonkey238>---</cf_tracking_seamonkey238>
+<cf_status_thunderbird_68>---</cf_status_thunderbird_68>
+<cf_status_seamonkey238>---</cf_status_seamonkey238>
+<cf_status_thunderbird_69>---</cf_status_thunderbird_69>
+<cf_tracking_thunderbird_69>---</cf_tracking_thunderbird_69>
+<cf_tracking_seamonkey239>---</cf_tracking_seamonkey239>
+<cf_crash_signature/>
+<cf_status_seamonkey239>---</cf_status_seamonkey239>
+<cf_status_thunderbird_70>---</cf_status_thunderbird_70>
+<cf_tracking_seamonkey240>---</cf_tracking_seamonkey240>
+<cf_tracking_thunderbird_70>---</cf_tracking_thunderbird_70>
+<cf_status_seamonkey240>---</cf_status_seamonkey240>
+<cf_status_thunderbird_71>---</cf_status_thunderbird_71>
+<cf_tracking_seamonkey241>---</cf_tracking_seamonkey241>
+<cf_tracking_thunderbird_71>---</cf_tracking_thunderbird_71>
+<cf_status_seamonkey241>---</cf_status_seamonkey241>
+<cf_status_thunderbird_72>---</cf_status_thunderbird_72>
+<cf_tracking_seamonkey242>---</cf_tracking_seamonkey242>
+<cf_tracking_thunderbird_72>---</cf_tracking_thunderbird_72>
+<cf_status_seamonkey242>---</cf_status_seamonkey242>
+<cf_status_thunderbird_73>---</cf_status_thunderbird_73>
+<cf_tracking_thunderbird_73>---</cf_tracking_thunderbird_73>
+<cf_tracking_seamonkey243>---</cf_tracking_seamonkey243>
+<cf_status_thunderbird_74>---</cf_status_thunderbird_74>
+<cf_status_seamonkey243>---</cf_status_seamonkey243>
+<cf_status_thunderbird_75>---</cf_status_thunderbird_75>
+<cf_tracking_seamonkey244>---</cf_tracking_seamonkey244>
+<cf_tracking_thunderbird_74>---</cf_tracking_thunderbird_74>
+<cf_status_seamonkey244>---</cf_status_seamonkey244>
+<cf_status_thunderbird_76>---</cf_status_thunderbird_76>
+<cf_tracking_thunderbird_75>---</cf_tracking_thunderbird_75>
+<cf_tracking_seamonkey245>---</cf_tracking_seamonkey245>
+<cf_tracking_thunderbird_76>---</cf_tracking_thunderbird_76>
+<cf_status_thunderbird_77>---</cf_status_thunderbird_77>
+<cf_status_seamonkey245>---</cf_status_seamonkey245>
+<cf_tracking_thunderbird_77>---</cf_tracking_thunderbird_77>
+<cf_status_thunderbird_78>---</cf_status_thunderbird_78>
+<cf_tracking_thunderbird_78>---</cf_tracking_thunderbird_78>
+<cf_tracking_seamonkey246>---</cf_tracking_seamonkey246>
+<cf_status_thunderbird_79>---</cf_status_thunderbird_79>
+<cf_tracking_thunderbird_79>---</cf_tracking_thunderbird_79>
+<cf_status_thunderbird_80>---</cf_status_thunderbird_80>
+<cf_status_seamonkey246>---</cf_status_seamonkey246>
+<cf_tracking_thunderbird_80>---</cf_tracking_thunderbird_80>
+<cf_tracking_seamonkey247>---</cf_tracking_seamonkey247>
+<cf_status_thunderbird_81>---</cf_status_thunderbird_81>
+<cf_tracking_thunderbird_81>---</cf_tracking_thunderbird_81>
+<cf_status_seamonkey247>---</cf_status_seamonkey247>
+<cf_status_thunderbird_82>---</cf_status_thunderbird_82>
+<cf_tracking_thunderbird_82>---</cf_tracking_thunderbird_82>
+<cf_status_thunderbird_83>---</cf_status_thunderbird_83>
+<cf_tracking_seamonkey248>---</cf_tracking_seamonkey248>
+<cf_tracking_thunderbird_83>---</cf_tracking_thunderbird_83>
+<cf_status_seamonkey248>---</cf_status_seamonkey248>
+<cf_status_thunderbird_84>---</cf_status_thunderbird_84>
+<cf_tracking_thunderbird_84>---</cf_tracking_thunderbird_84>
+<cf_status_thunderbird_85>---</cf_status_thunderbird_85>
+<cf_tracking_thunderbird_85>---</cf_tracking_thunderbird_85>
+<cf_status_thunderbird_86>---</cf_status_thunderbird_86>
+<cf_blocking_kilimanjaro>---</cf_blocking_kilimanjaro>
+<cf_tracking_thunderbird_86>---</cf_tracking_thunderbird_86>
+<cf_tracking_seamonkey249>---</cf_tracking_seamonkey249>
+<cf_blocking_b2g>---</cf_blocking_b2g>
+<cf_status_thunderbird_87>---</cf_status_thunderbird_87>
+<cf_tracking_thunderbird_87>---</cf_tracking_thunderbird_87>
+<cf_blocking_basecamp>---</cf_blocking_basecamp>
+<cf_status_seamonkey249>---</cf_status_seamonkey249>
+<cf_status_thunderbird_88>---</cf_status_thunderbird_88>
+<cf_tracking_thunderbird_88>---</cf_tracking_thunderbird_88>
+<cf_tracking_seamonkey250>---</cf_tracking_seamonkey250>
+<cf_feature_b2g>---</cf_feature_b2g>
+<cf_status_thunderbird_89>---</cf_status_thunderbird_89>
+<cf_tracking_thunderbird_89>---</cf_tracking_thunderbird_89>
+<cf_tracking_b2g>---</cf_tracking_b2g>
+<cf_status_thunderbird_90>---</cf_status_thunderbird_90>
+<cf_ux_b2g>---</cf_ux_b2g>
+<cf_status_seamonkey250>---</cf_status_seamonkey250>
+<cf_tracking_thunderbird_90>---</cf_tracking_thunderbird_90>
+<cf_b2g_ota_blocker>---</cf_b2g_ota_blocker>
+<cf_status_thunderbird_91>---</cf_status_thunderbird_91>
+<cf_tracking_seamonkey251>---</cf_tracking_seamonkey251>
+<cf_tracking_thunderbird_91>---</cf_tracking_thunderbird_91>
+<cf_status_thunderbird_92>---</cf_status_thunderbird_92>
+<cf_status_seamonkey251>---</cf_status_seamonkey251>
+<cf_tracking_thunderbird_92>---</cf_tracking_thunderbird_92>
+<cf_tracking_seamonkey252>---</cf_tracking_seamonkey252>
+<cf_status_thunderbird_93>---</cf_status_thunderbird_93>
+<cf_tracking_thunderbird_93>---</cf_tracking_thunderbird_93>
+<cf_status_seamonkey252>---</cf_status_seamonkey252>
+<cf_status_thunderbird_94>---</cf_status_thunderbird_94>
+<cf_tracking_thunderbird_94>---</cf_tracking_thunderbird_94>
+<cf_status_thunderbird_95>---</cf_status_thunderbird_95>
+<cf_tracking_thunderbird_95>---</cf_tracking_thunderbird_95>
+<cf_tracking_seamonkey254>---</cf_tracking_seamonkey254>
+<cf_status_thunderbird_96>---</cf_status_thunderbird_96>
+<cf_tracking_thunderbird_96>---</cf_tracking_thunderbird_96>
+<cf_status_thunderbird_97>---</cf_status_thunderbird_97>
+<cf_status_seamonkey254>---</cf_status_seamonkey254>
+<cf_tracking_thunderbird_97>---</cf_tracking_thunderbird_97>
+<cf_status_thunderbird_98>---</cf_status_thunderbird_98>
+<cf_tracking_seamonkey255>---</cf_tracking_seamonkey255>
+<cf_tracking_thunderbird_98>---</cf_tracking_thunderbird_98>
+<cf_status_thunderbird_99>---</cf_status_thunderbird_99>
+<cf_status_seamonkey255>---</cf_status_seamonkey255>
+<cf_tracking_thunderbird_99>---</cf_tracking_thunderbird_99>
+<cf_status_seamonkey256>---</cf_status_seamonkey256>
+<cf_status_thunderbird_100>---</cf_status_thunderbird_100>
+<cf_tracking_thunderbird_100>---</cf_tracking_thunderbird_100>
+<cf_tracking_seamonkey256>---</cf_tracking_seamonkey256>
+<cf_status_thunderbird_101>---</cf_status_thunderbird_101>
+<cf_tracking_thunderbird_101>---</cf_tracking_thunderbird_101>
+<cf_status_thunderbird_102>---</cf_status_thunderbird_102>
+<cf_tracking_thunderbird_102>---</cf_tracking_thunderbird_102>
+<cf_status_seamonkey258>---</cf_status_seamonkey258>
+<cf_status_thunderbird_103>---</cf_status_thunderbird_103>
+<cf_tracking_thunderbird_103>---</cf_tracking_thunderbird_103>
+<cf_tracking_seamonkey258>---</cf_tracking_seamonkey258>
+<cf_status_thunderbird_104>---</cf_status_thunderbird_104>
+<cf_tracking_thunderbird_104>---</cf_tracking_thunderbird_104>
+<cf_status_thunderbird_105>---</cf_status_thunderbird_105>
+<cf_status_seamonkey259>---</cf_status_seamonkey259>
+<cf_tracking_thunderbird_105>---</cf_tracking_thunderbird_105>
+<cf_tracking_seamonkey259>---</cf_tracking_seamonkey259>
+<cf_status_thunderbird_106>---</cf_status_thunderbird_106>
+<cf_tracking_thunderbird_106>---</cf_tracking_thunderbird_106>
+<cf_status_fxios_v1_0>---</cf_status_fxios_v1_0>
+<cf_status_fxios_v1_1>---</cf_status_fxios_v1_1>
+<cf_status_fxios_v1_0_5>---</cf_status_fxios_v1_0_5>
+<cf_status_fxios_v2_0>---</cf_status_fxios_v2_0>
+<cf_status_fxios_v3_0>---</cf_status_fxios_v3_0>
+<cf_status_thunderbird_107>---</cf_status_thunderbird_107>
+<cf_status_seamonkey260>---</cf_status_seamonkey260>
+<cf_status_fxios_v4_0>---</cf_status_fxios_v4_0>
+<cf_tracking_thunderbird_107>---</cf_tracking_thunderbird_107>
+<cf_status_fxios_v5_0>---</cf_status_fxios_v5_0>
+<cf_status_thunderbird_108>---</cf_status_thunderbird_108>
+<cf_tracking_seamonkey260>---</cf_tracking_seamonkey260>
+<cf_tracking_thunderbird_108>---</cf_tracking_thunderbird_108>
+<cf_status_fxios_v5_1>---</cf_status_fxios_v5_1>
+<cf_status_fxios_v5_2>---</cf_status_fxios_v5_2>
+<cf_status_fxios_v5_3>---</cf_status_fxios_v5_3>
+<cf_status_thunderbird_109>---</cf_status_thunderbird_109>
+<cf_status_fxios_v6_0>---</cf_status_fxios_v6_0>
+<cf_tracking_thunderbird_109>---</cf_tracking_thunderbird_109>
+<cf_status_fxios_v6_1>---</cf_status_fxios_v6_1>
+<cf_status_fxios_v7_0>---</cf_status_fxios_v7_0>
+<cf_status_thunderbird_110>---</cf_status_thunderbird_110>
+<cf_status_fxios_v7_1>---</cf_status_fxios_v7_1>
+<cf_tracking_thunderbird_110>---</cf_tracking_thunderbird_110>
+<cf_status_thunderbird_111>---</cf_status_thunderbird_111>
+<cf_status_fxios_v7_2>---</cf_status_fxios_v7_2>
+<cf_status_fxios_v7_3>---</cf_status_fxios_v7_3>
+<cf_tracking_thunderbird_111>---</cf_tracking_thunderbird_111>
+<cf_status_thunderbird_112>---</cf_status_thunderbird_112>
+<cf_tracking_thunderbird_112>---</cf_tracking_thunderbird_112>
+<cf_status_fxios_v7_4>---</cf_status_fxios_v7_4>
+<cf_status_fxios_v7_5>---</cf_status_fxios_v7_5>
+<cf_status_fxios_v7_6>---</cf_status_fxios_v7_6>
+<cf_status_thunderbird_113>---</cf_status_thunderbird_113>
+<cf_tracking_thunderbird_113>---</cf_tracking_thunderbird_113>
+<cf_tracking_seamonkey263>---</cf_tracking_seamonkey263>
+<cf_status_thunderbird_114>---</cf_status_thunderbird_114>
+<cf_tracking_thunderbird_114>---</cf_tracking_thunderbird_114>
+<cf_status_seamonkey263>---</cf_status_seamonkey263>
+<cf_status_thunderbird_115>---</cf_status_thunderbird_115>
+<cf_tracking_thunderbird_115>---</cf_tracking_thunderbird_115>
+<cf_status_thunderbird_116>---</cf_status_thunderbird_116>
+<cf_tracking_thunderbird_116>---</cf_tracking_thunderbird_116>
+<cf_status_thunderbird_117>---</cf_status_thunderbird_117>
+<cf_tracking_thunderbird_117>---</cf_tracking_thunderbird_117>
+<cf_status_thunderbird_118>---</cf_status_thunderbird_118>
+<cf_tracking_thunderbird_118>---</cf_tracking_thunderbird_118>
+<cf_status_thunderbird_119>---</cf_status_thunderbird_119>
+<cf_tracking_thunderbird_119>---</cf_tracking_thunderbird_119>
+<cf_status_thunderbird_120>---</cf_status_thunderbird_120>
+<cf_tracking_thunderbird_120>---</cf_tracking_thunderbird_120>
+<cf_status_bmo_push>---</cf_status_bmo_push>
+<cf_tracking_bmo_push>---</cf_tracking_bmo_push>
+<cf_status_conduit_push>---</cf_status_conduit_push>
+<cf_tracking_conduit_push>---</cf_tracking_conduit_push>
+<cf_last_resolved>2023-02-15 13:31:13</cf_last_resolved>
+<cf_status_seamonkey253>---</cf_status_seamonkey253>
+<cf_tracking_seamonkey253>---</cf_tracking_seamonkey253>
+<cf_user_story/>
+<cf_status_seamonkey257esr>---</cf_status_seamonkey257esr>
+<cf_tracking_seamonkey257esr>---</cf_tracking_seamonkey257esr>
+<cf_mozilla_project>---</cf_mozilla_project>
+<cf_machine_state>---</cf_machine_state>
+<cf_qa_whiteboard/>
+<cf_fx_iteration>---</cf_fx_iteration>
+<cf_fx_points>---</cf_fx_points>
+<cf_has_str>---</cf_has_str>
+<cf_cab_review>---</cf_cab_review>
+<cf_tracking_fxios>---</cf_tracking_fxios>
+<cf_status_fxios_v8_0>---</cf_status_fxios_v8_0>
+<cf_status_fxios_v8_1>---</cf_status_fxios_v8_1>
+<cf_status_fxios_v8_2>---</cf_status_fxios_v8_2>
+<cf_status_fxios_v8_3>---</cf_status_fxios_v8_3>
+<cf_status_fxios_v8_4>---</cf_status_fxios_v8_4>
+<cf_status_fxios_v9_0>---</cf_status_fxios_v9_0>
+<cf_status_fxios_v9_1>---</cf_status_fxios_v9_1>
+<cf_status_fxios_v9_2>---</cf_status_fxios_v9_2>
+<cf_status_fxios_v9_3>---</cf_status_fxios_v9_3>
+<cf_status_fxios_v9_4>---</cf_status_fxios_v9_4>
+<cf_status_fxios_v10_0>---</cf_status_fxios_v10_0>
+<cf_status_fxios_v10_1>---</cf_status_fxios_v10_1>
+<cf_status_fxios_v10_2>---</cf_status_fxios_v10_2>
+<cf_status_fxios_v10_5>---</cf_status_fxios_v10_5>
+<cf_status_fxios_v10_6>---</cf_status_fxios_v10_6>
+<cf_status_fxios_v11_0>---</cf_status_fxios_v11_0>
+<cf_status_fxios_v11_1>---</cf_status_fxios_v11_1>
+<cf_status_fxios_v12_0>---</cf_status_fxios_v12_0>
+<cf_status_fxios_v12_1>---</cf_status_fxios_v12_1>
+<cf_status_fxios_v12_2>---</cf_status_fxios_v12_2>
+<cf_status_fxios_v13_0>---</cf_status_fxios_v13_0>
+<cf_status_fxios_v13_1>---</cf_status_fxios_v13_1>
+<cf_status_fxios_v13_2>---</cf_status_fxios_v13_2>
+<cf_status_fxios_v13_3>---</cf_status_fxios_v13_3>
+<cf_status_fxios_v14_0>---</cf_status_fxios_v14_0>
+<cf_status_fxios_v14_1>---</cf_status_fxios_v14_1>
+<cf_status_fxios_v14_2>---</cf_status_fxios_v14_2>
+<cf_status_fxios_v14_3>---</cf_status_fxios_v14_3>
+<cf_status_fxios_v15_0>---</cf_status_fxios_v15_0>
+<cf_status_fxios_v15_1>---</cf_status_fxios_v15_1>
+<cf_status_fxios_v16_0>---</cf_status_fxios_v16_0>
+<cf_tracking_geckoview62>---</cf_tracking_geckoview62>
+<cf_status_geckoview62>---</cf_status_geckoview62>
+<cf_tracking_geckoview63>---</cf_tracking_geckoview63>
+<cf_status_geckoview63>---</cf_status_geckoview63>
+<cf_tracking_geckoview64>---</cf_tracking_geckoview64>
+<cf_status_geckoview64>---</cf_status_geckoview64>
+<cf_tracking_geckoview65>---</cf_tracking_geckoview65>
+<cf_status_geckoview65>---</cf_status_geckoview65>
+<cf_tracking_geckoview66>---</cf_tracking_geckoview66>
+<cf_status_geckoview66>---</cf_status_geckoview66>
+<cf_tracking_firefox50>---</cf_tracking_firefox50>
+<cf_status_firefox50>---</cf_status_firefox50>
+<cf_tracking_firefox51>---</cf_tracking_firefox51>
+<cf_status_firefox51>---</cf_status_firefox51>
+<cf_tracking_firefox52>---</cf_tracking_firefox52>
+<cf_status_firefox52>---</cf_status_firefox52>
+<cf_tracking_firefox_esr52>---</cf_tracking_firefox_esr52>
+<cf_status_firefox_esr52>---</cf_status_firefox_esr52>
+<cf_tracking_firefox_esr60>---</cf_tracking_firefox_esr60>
+<cf_status_firefox_esr60>---</cf_status_firefox_esr60>
+<cf_tracking_firefox_esr68>---</cf_tracking_firefox_esr68>
+<cf_status_firefox_esr68>---</cf_status_firefox_esr68>
+<cf_tracking_firefox53>---</cf_tracking_firefox53>
+<cf_tracking_firefox_esr78>---</cf_tracking_firefox_esr78>
+<cf_status_firefox_esr78>---</cf_status_firefox_esr78>
+<cf_tracking_firefox_esr91>---</cf_tracking_firefox_esr91>
+<cf_status_firefox_esr91>---</cf_status_firefox_esr91>
+<cf_status_firefox53>---</cf_status_firefox53>
+<cf_tracking_firefox_esr102>---</cf_tracking_firefox_esr102>
+<cf_status_firefox_esr102>verified</cf_status_firefox_esr102>
+<cf_tracking_firefox_esr115>---</cf_tracking_firefox_esr115>
+<cf_status_firefox_esr115>---</cf_status_firefox_esr115>
+<cf_tracking_firefox54>---</cf_tracking_firefox54>
+<cf_status_firefox54>---</cf_status_firefox54>
+<cf_tracking_firefox55>---</cf_tracking_firefox55>
+<cf_status_firefox55>---</cf_status_firefox55>
+<cf_tracking_firefox56>---</cf_tracking_firefox56>
+<cf_status_firefox56>---</cf_status_firefox56>
+<cf_tracking_firefox57>---</cf_tracking_firefox57>
+<cf_status_firefox57>---</cf_status_firefox57>
+<cf_tracking_firefox58>---</cf_tracking_firefox58>
+<cf_status_firefox58>---</cf_status_firefox58>
+<cf_tracking_firefox59>---</cf_tracking_firefox59>
+<cf_status_firefox59>---</cf_status_firefox59>
+<cf_tracking_firefox60>---</cf_tracking_firefox60>
+<cf_status_firefox60>---</cf_status_firefox60>
+<cf_tracking_firefox61>---</cf_tracking_firefox61>
+<cf_status_firefox61>---</cf_status_firefox61>
+<cf_tracking_firefox62>---</cf_tracking_firefox62>
+<cf_status_firefox62>---</cf_status_firefox62>
+<cf_tracking_firefox63>---</cf_tracking_firefox63>
+<cf_status_firefox63>---</cf_status_firefox63>
+<cf_tracking_firefox64>---</cf_tracking_firefox64>
+<cf_status_firefox64>---</cf_status_firefox64>
+<cf_tracking_firefox65>---</cf_tracking_firefox65>
+<cf_status_firefox65>---</cf_status_firefox65>
+<cf_tracking_firefox66>---</cf_tracking_firefox66>
+<cf_status_firefox66>---</cf_status_firefox66>
+<cf_tracking_firefox67>---</cf_tracking_firefox67>
+<cf_status_firefox67>---</cf_status_firefox67>
+<cf_tracking_firefox67_0_1>---</cf_tracking_firefox67_0_1>
+<cf_status_firefox67_0_1>---</cf_status_firefox67_0_1>
+<cf_tracking_firefox68>---</cf_tracking_firefox68>
+<cf_status_firefox68>---</cf_status_firefox68>
+<cf_tracking_firefox69>---</cf_tracking_firefox69>
+<cf_status_firefox69>---</cf_status_firefox69>
+<cf_tracking_firefox70>---</cf_tracking_firefox70>
+<cf_status_firefox70>---</cf_status_firefox70>
+<cf_tracking_firefox71>---</cf_tracking_firefox71>
+<cf_status_firefox71>---</cf_status_firefox71>
+<cf_tracking_firefox72>---</cf_tracking_firefox72>
+<cf_status_firefox72>---</cf_status_firefox72>
+<cf_status_firefox73>---</cf_status_firefox73>
+<cf_tracking_firefox73>---</cf_tracking_firefox73>
+<cf_tracking_firefox74>---</cf_tracking_firefox74>
+<cf_status_firefox74>---</cf_status_firefox74>
+<cf_tracking_firefox75>---</cf_tracking_firefox75>
+<cf_status_firefox75>---</cf_status_firefox75>
+<cf_tracking_firefox76>---</cf_tracking_firefox76>
+<cf_status_firefox76>---</cf_status_firefox76>
+<cf_tracking_firefox77>---</cf_tracking_firefox77>
+<cf_status_firefox77>---</cf_status_firefox77>
+<cf_tracking_firefox78>---</cf_tracking_firefox78>
+<cf_status_firefox78>---</cf_status_firefox78>
+<cf_tracking_firefox79>---</cf_tracking_firefox79>
+<cf_status_firefox79>---</cf_status_firefox79>
+<cf_tracking_firefox80>---</cf_tracking_firefox80>
+<cf_status_firefox80>---</cf_status_firefox80>
+<cf_tracking_firefox81>---</cf_tracking_firefox81>
+<cf_status_firefox81>---</cf_status_firefox81>
+<cf_tracking_firefox82>---</cf_tracking_firefox82>
+<cf_status_firefox82>---</cf_status_firefox82>
+<cf_tracking_firefox83>---</cf_tracking_firefox83>
+<cf_status_firefox83>---</cf_status_firefox83>
+<cf_tracking_firefox84>---</cf_tracking_firefox84>
+<cf_status_firefox84>---</cf_status_firefox84>
+<cf_tracking_firefox85>---</cf_tracking_firefox85>
+<cf_status_firefox85>---</cf_status_firefox85>
+<cf_tracking_firefox86>---</cf_tracking_firefox86>
+<cf_status_firefox86>---</cf_status_firefox86>
+<cf_tracking_firefox87>---</cf_tracking_firefox87>
+<cf_status_firefox87>---</cf_status_firefox87>
+<cf_tracking_firefox88>---</cf_tracking_firefox88>
+<cf_status_firefox88>---</cf_status_firefox88>
+<cf_tracking_firefox89>---</cf_tracking_firefox89>
+<cf_status_firefox89>---</cf_status_firefox89>
+<cf_tracking_firefox90>---</cf_tracking_firefox90>
+<cf_status_firefox90>---</cf_status_firefox90>
+<cf_tracking_firefox91>---</cf_tracking_firefox91>
+<cf_status_firefox91>---</cf_status_firefox91>
+<cf_tracking_firefox92>---</cf_tracking_firefox92>
+<cf_status_firefox92>---</cf_status_firefox92>
+<cf_tracking_firefox93>---</cf_tracking_firefox93>
+<cf_status_firefox93>---</cf_status_firefox93>
+<cf_tracking_firefox94>---</cf_tracking_firefox94>
+<cf_status_firefox94>---</cf_status_firefox94>
+<cf_tracking_firefox95>---</cf_tracking_firefox95>
+<cf_status_firefox95>---</cf_status_firefox95>
+<cf_tracking_firefox96>---</cf_tracking_firefox96>
+<cf_status_firefox96>---</cf_status_firefox96>
+<cf_tracking_firefox97>---</cf_tracking_firefox97>
+<cf_status_firefox97>---</cf_status_firefox97>
+<cf_tracking_firefox98>---</cf_tracking_firefox98>
+<cf_status_firefox98>---</cf_status_firefox98>
+<cf_tracking_firefox99>---</cf_tracking_firefox99>
+<cf_status_firefox99>---</cf_status_firefox99>
+<cf_tracking_firefox100>---</cf_tracking_firefox100>
+<cf_status_firefox100>---</cf_status_firefox100>
+<cf_tracking_firefox101>---</cf_tracking_firefox101>
+<cf_status_firefox101>---</cf_status_firefox101>
+<cf_tracking_firefox102>---</cf_tracking_firefox102>
+<cf_status_firefox102>---</cf_status_firefox102>
+<cf_tracking_firefox103>---</cf_tracking_firefox103>
+<cf_status_firefox103>---</cf_status_firefox103>
+<cf_tracking_firefox104>---</cf_tracking_firefox104>
+<cf_status_firefox104>---</cf_status_firefox104>
+<cf_tracking_firefox105>---</cf_tracking_firefox105>
+<cf_status_firefox105>---</cf_status_firefox105>
+<cf_tracking_firefox106>---</cf_tracking_firefox106>
+<cf_status_firefox106>---</cf_status_firefox106>
+<cf_tracking_firefox107>---</cf_tracking_firefox107>
+<cf_status_firefox107>---</cf_status_firefox107>
+<cf_tracking_firefox108>---</cf_tracking_firefox108>
+<cf_status_firefox108>---</cf_status_firefox108>
+<cf_tracking_firefox109>+</cf_tracking_firefox109>
+<cf_status_firefox109>verified</cf_status_firefox109>
+<cf_tracking_firefox110>---</cf_tracking_firefox110>
+<cf_status_firefox110>verified</cf_status_firefox110>
+<cf_tracking_firefox111>---</cf_tracking_firefox111>
+<cf_status_firefox111>verified</cf_status_firefox111>
+<cf_tracking_firefox112>---</cf_tracking_firefox112>
+<cf_status_firefox112>---</cf_status_firefox112>
+<cf_tracking_firefox113>---</cf_tracking_firefox113>
+<cf_status_firefox113>---</cf_status_firefox113>
+<cf_tracking_firefox114>---</cf_tracking_firefox114>
+<cf_status_firefox114>---</cf_status_firefox114>
+<cf_tracking_firefox115>---</cf_tracking_firefox115>
+<cf_status_firefox115>---</cf_status_firefox115>
+<cf_tracking_firefox116>---</cf_tracking_firefox116>
+<cf_status_firefox116>---</cf_status_firefox116>
+<cf_tracking_firefox117>---</cf_tracking_firefox117>
+<cf_status_firefox117>---</cf_status_firefox117>
+<cf_tracking_firefox118>---</cf_tracking_firefox118>
+<cf_status_firefox118>---</cf_status_firefox118>
+<cf_tracking_firefox119>---</cf_tracking_firefox119>
+<cf_status_firefox119>---</cf_status_firefox119>
+<cf_tracking_firefox120>---</cf_tracking_firefox120>
+<cf_status_firefox120>---</cf_status_firefox120>
+<cf_tracking_flowstate01>---</cf_tracking_flowstate01>
+<cf_status_flowstate01>---</cf_status_flowstate01>
+<cf_tracking_flowstate02>---</cf_tracking_flowstate02>
+<cf_status_flowstate02>---</cf_status_flowstate02>
+<cf_tracking_flowstate03>---</cf_tracking_flowstate03>
+<cf_status_flowstate03>---</cf_status_flowstate03>
+<cf_data_science_status>---</cf_data_science_status>
+<cf_fission_milestone>---</cf_fission_milestone>
+<cf_install_update_workflow>---</cf_install_update_workflow>
+<cf_last_resolved>2023-02-15 13:31:13</cf_last_resolved>
+<votes>0</votes>
+<long_desc isprivate="0">
+<commentid>16189250</commentid>
+<who name="bhearsum@mozilla.com (:bhearsum)">bhearsum</who>
+<bug_when>2022-12-06 11:30:00 -0800</bug_when>
+<thetext>
+https://bugzilla.mozilla.org/show_bug.cgi?id=1799332 describes an issue affected macOS users on 13.0 (Ventura) that we believe affects anyone that has ever had their channel-prefs.js file modified (something that we did in Firefox 70 -- so any installs dating back that far are susceptible to this issue). It's not _entirely_ clear to me that everyone will be affected by it -- we seem to have [fairly healthy uptake of 13.0](https://sql.telemetry.mozilla.org/queries/89106/source#220652) which I would not expect if this was 100% reproducible -- but nonetheless it's quite clear that it's possible to hit. As a precautionary measure, I propose that we force an unconditional update to channel-prefs.js when we ship Firefox 108 to release users. This will ensure that they have the right version of the file, and that the code signature will be valid. Notably, we _cannot_ ship a MAR that contains this to the Beta channel, as it would cause those users to switch to Release -- so this probably requires some custom work for RelEng.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16189984</commentid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2022-12-07 03:04:55 -0800</bug_when>
+<thetext>
+[Tracking Requested - why for this release]: potential late release-automation changes, related to newest macos version
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16190484</commentid>
+<who name="bhearsum@mozilla.com (:bhearsum)">bhearsum</who>
+<bug_when>2022-12-07 09:26:11 -0800</bug_when>
+<thetext>
+Julien, :bytesized, and I just talked about this and decided that due to both the very tight timeline here, and the fact that the data we have seems to show that not as many users on macOS 13.0 are affected by this, that we ought to do this for 109 instead.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16210419</commentid>
+<who name="bhearsum@mozilla.com (:bhearsum)">bhearsum</who>
+<bug_when>2022-12-22 06:42:48 -0800</bug_when>
+<thetext>
+A couple of other notes: - We probably ought to do this for Nightly & Beta as well (and those are safe-ish test grounds for such a change). - We can probably do this similar to how we've done channel changing MARs in the past, and just ship an update to channel-prefs.js. A recent example is https://bugzilla.mozilla.org/show_bug.cgi?id=1639199. - This update should be treated as a watershed - otherwise most users probably won't get it. (Please update [the new in-tree list of watersheds for this](https://searchfox.org/mozilla-central/source/docs/update-infrastructure/index.md#5).)
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16219750</commentid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-02 06:59:33 -0800</bug_when>
+<thetext>
+(In reply to bhearsum@mozilla.com (:bhearsum) from comment #3) > - We can probably do this similar to how we've done channel changing MARs in the past, and just ship an update to channel-prefs.js. A recent example is https://bugzilla.mozilla.org/show_bug.cgi?id=1639199. I don't think this will work quite as easily: we need something that results in a different update URL, so balrog knows whether a request is coming from a client before or after this change, and serve the right update. Changing the channel name achieves that, but just changing comments in channel-prefs.js doesn't, so I think it will likely need to be combined with an actual app update (so there's a new buildID).
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16224978</commentid>
+<attachid>9311070</attachid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-06 08:34:40 -0800</bug_when>
+<thetext>
+Created attachment 9311070 Bug 1804303 - force update to channel-prefs.js on mac.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16231516</commentid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-11 04:34:43 -0800</bug_when>
+<thetext>
+Ryan, chatting with Ben we came up with the following plan around this: 1. land in nightly (some time next week after the bump to 111?) for at least one build, then back it out. Set up a mac watershed on that build 2. monitor update telemetry to try and catch unexpected failures 3. land on mozilla-release for 109.0.1 4. set up the mac watershed on release once 109.0.1 is at 100% 5. back out of m-r It'd probably be good to also do this on beta and aurora, perhaps with one of the late 110 builds? How does this sound?
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16231551</commentid>
+<attachid>9311732</attachid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-11 05:25:53 -0800</bug_when>
+<thetext>
+Created attachment 9311732 Bug 1804303 - add 109.0.1 to the list of watershed releases
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16231665</commentid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-11 07:02:03 -0800</bug_when>
+<thetext>
+I should note, I've verified in a staging release with this patch that both partial and complete mar files end up with `add "Contents/Resources/defaults/pref/channel-prefs.js"` in the update manifest instead of `add-if-not` (meaning we always replace that file with the one from the new version, instead of just creating it if it doesn't already exist).
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16231873</commentid>
+<who name="Ryan VanderMeulen [:RyanVM]">ryanvm</who>
+<bug_when>2023-01-11 09:40:28 -0800</bug_when>
+<thetext>
+(In reply to Julien Cristau [:jcristau] from comment #6) Your proposal sounds good to me. Agreed that we should do it on Beta/Aurora as well. QA also needs a heads-up for update testing.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16232989</commentid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-12 05:45:32 -0800</bug_when>
+<thetext>
+Filed https://mozilla-hub.atlassian.net/browse/QA-1732 for the QA heads-up.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16237321</commentid>
+<who name="Pulsebot">pulsebot</who>
+<bug_when>2023-01-16 01:48:57 -0800</bug_when>
+<thetext>
+Pushed by jcristau@mozilla.com: https://hg.mozilla.org/integration/autoland/rev/a4d8b4c3d321 force update to channel-prefs.js on mac. r=bhearsum DONTBUILD
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16238217</commentid>
+<who name="Cosmin Sabou [:CosminS]">csabou</who>
+<bug_when>2023-01-16 13:22:42 -0800</bug_when>
+<thetext>
+https://hg.mozilla.org/mozilla-central/rev/a4d8b4c3d321
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16239061</commentid>
+<attachid>9312619</attachid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-17 07:32:39 -0800</bug_when>
+<thetext>
+Created attachment 9312619 Backed out changeset a4d8b4c3d321 (bug 1804303) as it is no longer necessary. r?bhearsum Backed out changeset a4d8b4c3d321 (bug 1804303) We needed one nightly build that updates channel-prefs.js. Now that it's done, and a watershed is in place, we can restore mar file generation to its normal logic.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16239177</commentid>
+<who name="Pulsebot">pulsebot</who>
+<bug_when>2023-01-17 08:17:59 -0800</bug_when>
+<thetext>
+Backout by jcristau@mozilla.com: https://hg.mozilla.org/integration/autoland/rev/2de29d32476a Backed out changeset a4d8b4c3d321 as it is no longer necessary. r=bhearsum DONTBUILD
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16240560</commentid>
+<who name="Sebastian Hengst [:aryx] (needinfo me if it's about an intermittent or backout)">aryx.bugmail</who>
+<bug_when>2023-01-18 01:58:32 -0800</bug_when>
+<thetext>
+Backout merged to central: https://hg.mozilla.org/mozilla-central/rev/2de29d32476a
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16247409</commentid>
+<attachid>9311070</attachid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-23 02:46:09 -0800</bug_when>
+<thetext>
+Comment on attachment 9311070 Bug 1804303 - force update to channel-prefs.js on mac. ### Beta/Release Uplift Approval Request * **User impact if declined**: signature verification failures on mac under unknown circumstances for installations pre-dating firefox 70 * **Is this code covered by automated tests?**: No * **Has the fix been verified in Nightly?**: Yes * **Needs manual test from QE?**: Yes * **If yes, steps to reproduce**: covered in QA-1732 * **List of other uplifts needed**: None * **Risk to taking this patch**: Low * **Why is the change risky/not risky? (and alternatives if risky)**: The update-packaging code is old and kind of quirky but the logic here is well understood and we've made and verified this change in nightly already. * **String changes made/needed**: n/a * **Is Android affected?**: No
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16247642</commentid>
+<attachid>9311070</attachid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-23 05:40:31 -0800</bug_when>
+<thetext>
+Comment on attachment 9311070 Bug 1804303 - force update to channel-prefs.js on mac. Let's put this on beta also. We will need to revert it again before RC, though.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16248863</commentid>
+<attachid>9311070</attachid>
+<who name="Pascal Chevrel:pascalc">pascalc</who>
+<bug_when>2023-01-24 01:56:24 -0800</bug_when>
+<thetext>
+Comment on attachment 9311070 Bug 1804303 - force update to channel-prefs.js on mac. Approved for 110 beta 5, thanks.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16248876</commentid>
+<who name="Pascal Chevrel:pascalc">pascalc</who>
+<bug_when>2023-01-24 02:10:01 -0800</bug_when>
+<thetext>
+https://hg.mozilla.org/releases/mozilla-beta/rev/4f5e777ecb4b
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16250878</commentid>
+<who name="Catalin Sasca, Desktop QA [:csasca]">csasca</who>
+<bug_when>2023-01-25 06:14:37 -0800</bug_when>
+<thetext>
+We just finished the updates spotcheck for Firefox 110.0b5. They passed as expected and the default channel.prefs.js is restored. We covered macOS 13.2 Intel and ARM and macOS 13.0.1 Intel. We updated from 105.0b5, 107.0b5 (incl. DevEd build), 109.0b5 and 110.0b4 and some DE/FR locales. We will test the watershed as well when 110.0b6 is available.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16253067</commentid>
+<attachid>9311070</attachid>
+<who name="Ryan VanderMeulen [:RyanVM]">ryanvm</who>
+<bug_when>2023-01-26 11:21:16 -0800</bug_when>
+<thetext>
+Comment on attachment 9311070 Bug 1804303 - force update to channel-prefs.js on mac. Approved for 109.0.1
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16253086</commentid>
+<who name="Ryan VanderMeulen [:RyanVM]">ryanvm</who>
+<bug_when>2023-01-26 11:40:29 -0800</bug_when>
+<thetext>
+https://hg.mozilla.org/releases/mozilla-release/rev/fd28e59cfc4f Are we going to need to do something for ESR also?
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16254398</commentid>
+<who name="Catalin Sasca, Desktop QA [:csasca]">csasca</who>
+<bug_when>2023-01-27 04:22:05 -0800</bug_when>
+<thetext>
+Tested the updates with watershed for Firefox 110.0b5. They passed as expected and the default channel-prefs.js is restored to the original state. We covered macOS 13.2 Intel and ARM and macOS 13.0.1 Intel. We updated from 105.0b5, 107.0b5 (incl. DevEd build), 109.0b5 and 110.0b4 and some DE/FR locales. We did some quick checks (updated from 109.0b9 en-US) on macOS 10.15, 11 and 12 and they had the same behavior with the watershed and restored channel prefs.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16258199</commentid>
+<attachid>9311070</attachid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-01-30 04:37:09 -0800</bug_when>
+<thetext>
+Comment on attachment 9311070 Bug 1804303 - force update to channel-prefs.js on mac. We might as well, yes.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16258252</commentid>
+<who name="Pascal Chevrel:pascalc">pascalc</who>
+<bug_when>2023-01-30 05:16:38 -0800</bug_when>
+<thetext>
+https://hg.mozilla.org/releases/mozilla-esr102/rev/9918c13156c7
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16258338</commentid>
+<who name="Catalin Sasca, Desktop QA [:csasca]">csasca</who>
+<bug_when>2023-01-30 06:33:07 -0800</bug_when>
+<thetext>
+We finished the initial update testing for Firefox 109.0.1 (release-cdntest channel). They passed as expected and the default channel.prefs.js is restored. We covered macOS 13.2 Intel and ARM and macOS 13.0.1 Intel (and quick spotcheck on older versions of macOS as well), more details for this testing can be [found here](https://docs.google.com/spreadsheets/d/1ZB0d8MV6BMsP_xE-73nGq44XUqhOXqrhOvasFMVhMJs/edit#gid=0).
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16260357</commentid>
+<who name="Catalin Sasca, Desktop QA [:csasca]">csasca</who>
+<bug_when>2023-01-31 07:52:46 -0800</bug_when>
+<thetext>
+We finished testing on the release channel as well. Tests passed as expected. More informations of the testing can be found in the link provided in Comment 26.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16262600</commentid>
+<who name="Pulsebot">pulsebot</who>
+<bug_when>2023-02-01 09:45:31 -0800</bug_when>
+<thetext>
+Pushed by jcristau@mozilla.com: https://hg.mozilla.org/integration/autoland/rev/62d3f4facb14 add 109.0.1 to the list of watershed releases r=bhearsum DONTBUILD
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16262679</commentid>
+<who name="Pascal Chevrel:pascalc">pascalc</who>
+<bug_when>2023-02-01 10:38:51 -0800</bug_when>
+<thetext>
+Backout on beta as planned: https://hg.mozilla.org/releases/mozilla-beta/rev/81982a3c6c11fde0bbb282ab63bee6efe44d2605
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16262921</commentid>
+<who name="Sandor Molnar">smolnar</who>
+<bug_when>2023-02-01 13:53:18 -0800</bug_when>
+<thetext>
+https://hg.mozilla.org/mozilla-central/rev/62d3f4facb14
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16263858</commentid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-02-02 05:01:42 -0800</bug_when>
+<thetext>
+I've verified with a staging esr release that the complete and partial mar files end up with `add "Contents/Resources/defaults/pref/channel-prefs.js"` in the manifest, but otherwise look the same.
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16270770</commentid>
+<who name="Catalin Sasca, Desktop QA [:csasca]">csasca</who>
+<bug_when>2023-02-07 06:41:37 -0800</bug_when>
+<thetext>
+We finished testing the updates to 110.0 (release-localtest channel) with 109.0.1 as the watershed (including resetting the channel-prefs.js) and we tested the updates for 102.8.0esr as well with no issues found. Test results for Firefox 110.0 can be seen [here](https://docs.google.com/spreadsheets/d/1ZB0d8MV6BMsP_xE-73nGq44XUqhOXqrhOvasFMVhMJs/edit#gid=0) and for 102.8.0esr [here](https://docs.google.com/spreadsheets/d/1ZB0d8MV6BMsP_xE-73nGq44XUqhOXqrhOvasFMVhMJs/edit#gid=462135613).
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16280264</commentid>
+<who name="Catalin Sasca, Desktop QA [:csasca]">csasca</who>
+<bug_when>2023-02-14 08:44:56 -0800</bug_when>
+<thetext>
+We finished testing the updates to 110.0-build3 (release-cdntest channel) with 109.0.1 as the watershed (including resetting the channel-prefs.js) and the updates for 102.8.0esr-build2 (esr-cdntest) as well with no issues found. Test results for Firefox 110.0 can be seen [here](https://docs.google.com/spreadsheets/d/1ZB0d8MV6BMsP_xE-73nGq44XUqhOXqrhOvasFMVhMJs/edit#gid=0) and for 102.8.0esr [here](https://docs.google.com/spreadsheets/d/1ZB0d8MV6BMsP_xE-73nGq44XUqhOXqrhOvasFMVhMJs/edit#gid=462135613).
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16281308</commentid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-02-15 00:52:44 -0800</bug_when>
+<thetext>
+I was pondering what to do for ESR.. One possibility is to back the patch out, and keep 102.8.0esr as a mac watershed, but we could also just leave the change in place and either keep the last 102.X release as a watershed for updates to 115.x, or (more likely) have bug 1799332 make this irrelevant. What do you think?
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16281703</commentid>
+<who name="Catalin Sasca, Desktop QA [:csasca]">csasca</who>
+<bug_when>2023-02-15 05:15:46 -0800</bug_when>
+<thetext>
+We finished testing the updates to 110.0-build3 on release channel with 109.0.1 as the watershed (including resetting the channel-prefs.js) and the updates for 102.8.0esr-build2 on esr channel as well with no issues found. Test results for Firefox 110.0 can be seen [here](https://docs.google.com/spreadsheets/d/1ZB0d8MV6BMsP_xE-73nGq44XUqhOXqrhOvasFMVhMJs/edit#gid=0) and for 102.8.0esr [here](https://docs.google.com/spreadsheets/d/1ZB0d8MV6BMsP_xE-73nGq44XUqhOXqrhOvasFMVhMJs/edit#gid=462135613).
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16281717</commentid>
+<who name="bhearsum@mozilla.com (:bhearsum)">bhearsum</who>
+<bug_when>2023-02-15 05:30:07 -0800</bug_when>
+<thetext>
+(In reply to Julien Cristau [:jcristau] from comment #34) > I was pondering what to do for ESR.. One possibility is to back the patch out, and keep 102.8.0esr as a mac watershed, but we could also just leave the change in place and either keep the last 102.X release as a watershed for updates to 115.x, or (more likely) have bug 1799332 make this irrelevant. What do you think? Seems fine to me to keep the patch in place on esr102. We should make a note somewhere to make sure that we don't forget to revisit this when 115 spins up. (I agree that it's probably a non-issue at that point...but we should definitely make a concious decision here...)
+</thetext>
+</long_desc>
+<long_desc isprivate="0">
+<commentid>16281718</commentid>
+<who name="Julien Cristau [:jcristau]">jcristau</who>
+<bug_when>2023-02-15 05:31:13 -0800</bug_when>
+<thetext>Thanks. I'll call this one fixed then. :)</thetext>
+</long_desc>
+<attachment isobsolete="0" ispatch="0" isprivate="0">
+<attachid>9311070</attachid>
+<date>2023-01-06 08:34:40 -0800</date>
+<delta_ts>2023-01-30 05:20:48 -0800</delta_ts>
+<desc>
+Bug 1804303 - force update to channel-prefs.js on mac.
+</desc>
+<filename>phabricator-D166190-url.txt</filename>
+<type>text/x-phabricator-request</type>
+<size>48</size>
+<attacher>jcristau</attacher>
+<data encoding="base64">
+aHR0cHM6Ly9waGFicmljYXRvci5zZXJ2aWNlcy5tb3ppbGxhLmNvbS9EMTY2MTkw
+</data>
+<flag name="approval-mozilla-beta" id="2149134" type_id="721" status="+" setter="pascalc"/>
+<flag name="approval-mozilla-release" id="2149053" type_id="737" status="+" setter="ryanvm"/>
+<flag name="approval-mozilla-esr102" id="2150325" type_id="952" status="+" setter="pascalc"/>
+</attachment>
+<attachment isobsolete="0" ispatch="0" isprivate="0">
+<attachid>9311732</attachid>
+<date>2023-01-11 05:25:53 -0800</date>
+<delta_ts>2023-01-11 05:25:53 -0800</delta_ts>
+<desc>
+Bug 1804303 - add 109.0.1 to the list of watershed releases
+</desc>
+<filename>phabricator-D166531-url.txt</filename>
+<type>text/x-phabricator-request</type>
+<size>48</size>
+<attacher>jcristau</attacher>
+<data encoding="base64">
+aHR0cHM6Ly9waGFicmljYXRvci5zZXJ2aWNlcy5tb3ppbGxhLmNvbS9EMTY2NTMx
+</data>
+</attachment>
+<attachment isobsolete="0" ispatch="0" isprivate="0">
+<attachid>9312619</attachid>
+<date>2023-01-17 07:32:39 -0800</date>
+<delta_ts>2023-01-17 07:33:32 -0800</delta_ts>
+<desc>
+Backed out changeset a4d8b4c3d321 (bug 1804303) as it is no longer necessary. r?bhearsum
+</desc>
+<filename>phabricator-D167036-url.txt</filename>
+<type>text/x-phabricator-request</type>
+<size>48</size>
+<attacher>jcristau</attacher>
+<data encoding="base64">
+aHR0cHM6Ly9waGFicmljYXRvci5zZXJ2aWNlcy5tb3ppbGxhLmNvbS9EMTY3MDM2
+</data>
+</attachment>
+</bug>
+</bugzilla>
