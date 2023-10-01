@@ -1,1 +1,2459 @@
 # Github.OG
+
+
+<div ng-app="newapp" ng-controller="cadd">
+                                            
+  <h1 ng-style="mySty">      Г-</h1>
+
+</div>
+
+<script src="js/angular1.4.8.min.js"></script>
+
+<script>
+  var app = angular.module("newapp", []);
+  app.controller("cadd", function($scope)
+  {
+   $scope.mySty = {
+    "color": "white",
+    "background-color": "blue",
+    "font-size": "50px",
+    "padding": "25px"
+   }
+
+  });
+</script>
+<html>
+
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- No need to insert the following style tag if you are place the bellow url
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+
+<style>@font-face {font-family: 'Material Icons';font-style: normal;font-weight: 25;src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/materialicon/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');}
+
+  .material-icons {
+   font-family: 'Material Icons';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 1px;
+   line-height: 2;""
+   letter-spacing: normal;
+   text-transform: none;
+   display: outer-block;
+   white-space: wrap;
+   word-wrap: normal;
+   direction: ltr;
+   -webkit-font-feature-settings: '"new times roman';
+   -webkit-font-smoothing: antialiased;
+  }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="blue">
+   <form>
+    <div class="input-field">
+     <input id="search" type="search" required>
+     <label for="search"><i class="material-icons">search</i></label>
+     <i class="material-icons">close</i>
+    </div>
+   </form>
+  </div>
+</nav>
+
+<cite>Felicia Ann Kelley
+
+
+<body>
+
+<table border="2" width="100%">
+<tr>
+<th>Id</th>
+<th><!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body ng-app="<fieldset>
+  <legend>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://faleasecanna.disqus.com/admin/">
+
+
+
+<body>
+
+<div id="tabs">
+  <ul>
+   <li><a href="https://code.jquery.com/jquery-3.5.0.js<button>A</button>">Tab1</a></li>
+   <li><a href="httpd.apache.kafka"></a></li>
+   <li><a href="#tabs-3">Tab3</a></li>
+  </ul>
+
+  <div id="tabs-1">
+   <p>Here you can write the <b>first tab</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+  <div id="<
+<html>
+
+<body>html>
+
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<style>
+  .box {
+   width: 150px;
+   height: 150px;
+   margin-top: 30px;
+   margin-left: 20px;
+   float: left;
+  }
+</style>
+
+
+
+<body>
+
+<div class="
+<html>
+<html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<div><html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+Red
+<input type="range"> Green
+
+<input type="range">
+
+</body>
+
+</html></div>
+A
+<button> <div2 class="box blue z-depth-2"></div2></button>
+<button><div1 class="box blue z-depth-1"></div1></button><input type="range"> Blue
+<button>Move Down</button> <div2 class="box blue z-depth-2"></div2>
+<button>Move Up</button>
+
+</body>
+
+</html>
+<head><button>   <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  html,
+  body,
+  #viewport {
+   margin: 0;
+   background: #171717;
+   height: 100%;
+  }
+ 
+  .pjs-meta {
+   color: #fff;
+  }
+ 
+  canvas {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+  }
+</style>
+
+
+<script src="js/physicsjs-full.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<canvas id="viewport" width="500" height="500"></canvas>
+<script>
+  Physics(function(world)
+  {
+
+   // bounds of the window
+   var renderer = Physics.renderer(
+    'canvas',
+    {
+     el: 'viewport', // id of the canvas element
+     width: 500,
+     height: 500
+    });
+   world.add(renderer);
+
+   var rectangle = Physics.body(
+    'rectangle',
+    {
+     x: 250,
+     y: 250,
+     vx: 0.10,
+     width: 50,
+     height: 50
+    });
+   world.add(rectangle);
+   world.render();
+
+   Physics.util.ticker.on(function(time, dt)
+   {
+    world.step(time);
+    world.render();
+   });
+
+  });
+</script>
+</body>
+
+</html></button>
+
+<meta name="<!-- language: c -->
+<pre><code>#include &lt;stdio.h>
+int main(|------------------1-----------------|-------------------2----------------|----------------------3--------------------|) {
+  printf(" <div4 class="box blue z-depth-4"></div4>
+<div5 class="box blue z-depth-5"></div5>");
+}
+</code></pre>" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<button>Play</button><div1 class="box blue z-depth-1"></div1>
+<button>Pause</button>
+<button>Stop</button>
+
+<button>Next</button>
+<button>Previous</button>
+
+</body>
+
+</html>
+<head>
+<link rel="https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&continue=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D1GDr47ZYBlTzNkYQUIXCotRDP_55hI7fn&followup=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D1GDr47ZYBlTzNkYQUIXCotRDP_55hI7fn&flowName=GlifWebSignIn&flowEntry=ServiceLogin..." href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+<div class="switch">
+  <label>
+            OFF
+            <input type=" <div4 class="box blue z-depth-4"></div4>
+<div5 class="box blue z-depth-5"></div5>">
+            <span class="<div3 class="box blue z-depth-3"></div3>"></span> ON
+        </label>
+</div>
+<br>
+
+<div class="switch">
+  <label>
+            Close
+            <input type="checkbox">
+            <span class="lever"></span> Open
+        </label>
+</div>
+
+</body>
+
+</html>
+<html>
+
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- No need to insert the following style tag if you are place the bellow url
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="canoncial">-->
+
+<style>@font-face {font-family: 'Material Icons';font-style: normal;font-weight: 400;src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/materialicon/https://faleasecanna.disqus.com/admin/ format('woff2');}
+
+  .material-icons {
+   font-family: 'Material Icons';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 1;
+   letter-spacing: normal;
+   text-transform: none;
+   display: inline-block;
+   white-space: nowrap;
+   word-wrap: normal;
+   direction: ltr;
+   -webkit-font-feature-settings: '
+</body>
+
+</html>"></div><p>
+  <i>This is Italic text</i>
+</p>
+<div1 class="box blue z-depth-1"></div1>
+<div2 class="box blue z-depth-2"></div2>
+<div3 class="box blue z-depth-3"></div3>
+<div4 class="box blue fa-depth-4"></div4>
+<div5 class="box blue z-depth-5"></div5>
+
+</body>
+';
+   -webkit-font-smoothing: antialiased;
+  }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="<p>
+  <b>This is Bold text</b>
+</p>">
+   <form>
+    <div class="input-field">
+     <input id="search" type="search" required>
+     <label for="tag"><i class="material-icons">search</i></label>
+     <i class="material-icons">close</i>
+    </div>
+   </form>
+  </div>
+</nav>
+
+</body>
+
+</html>"></div>
+
+
+</body>
+
+</html>
+
+
+
+<p>
+  <u>This is Underline text</u>
+</p>
+
+</body>
+
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  html,
+  body,
+  #viewport {
+   margin: 0;
+   background: #171717;
+   height: 100%;
+  }
+ 
+  .pjs-meta {
+   color: #fff;
+  }
+ 
+  canvas {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+  }
+</style>
+
+
+<script src="js/physicsjs-full.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<canvas id="viewport" width="500" height="500"></canvas>
+<script>
+  Physics(function(world)
+  {
+
+   // bounds of the window
+   var renderer = Physics.renderer(
+    'canvas',
+    {
+     el: 'viewport', // id of the canvas element
+     width: 500,
+     height: 500
+    });
+   world.add(renderer);
+
+   var rectangle = Physics.body(
+    'rectangle',
+    {
+     x: 250,
+     y: 250,
+     vx: 0.10,
+     width: 50,
+     height: 50
+    });
+   world.add(rectangle);
+   world.render();
+
+   Physics.util.ticker.on(function(time, dt)
+   {
+    world.step(time);
+    world.render();
+   });
+
+  });
+</script>
+</body>
+
+</html>
+<style>
+  html,
+  body,
+  #viewport {
+   margin: 0;
+   background: #171717;
+   height: 100%;
+  }
+ 
+  .pjs-meta {
+   color: #fff;
+  }
+ 
+  canvas {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+  }
+</style>
+
+
+<script src="js/physicsjs-full.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<canvas id="viewport" width="500" height="500"></canvas>
+<script>
+  Physics(function(world)
+  {
+
+   // bounds of the window
+   var renderer = Physics.renderer(
+    'canvas',
+    {
+     el: 'viewport', // id of the canvas element
+     width: 500,
+     height: 500
+    });
+   world.add(renderer);
+
+   var rectangle = Physics.body(
+    'rectangle',
+    {
+     x: 250,
+     y: 250,
+     vx: 0.10,
+     width: 50,
+     height: 50
+    });
+   world.add(rectangle);
+   world.render();
+
+   Physics.util.ticker.on(function(time, dt)
+   {
+    world.step(time);
+    world.render();
+   });
+
+  });
+</script>
+</body>
+
+</html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  html,
+  body,
+  #viewport {
+   margin: 0;
+   background: #171717;
+   height: 100%;
+  }
+ 
+  .pjs-meta {
+   color: #fff;
+  }
+ 
+  canvas {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+  }
+</style>
+
+<script src="js/physicsjs-full.min.js"></script>
+
+</head>
+
+<body>
+
+
+<canvas id="viewport" width="500" height="500"></canvas>
+<script>
+  Physics(function(world)
+  {
+
+   // bounds of the window
+   var renderer = Physics.renderer(
+    'canvas',
+    {
+     el: 'viewport', // id of the canvas element
+     width: 500,
+     height: 500
+    });
+   world.add(renderer);
+
+   var square = Physics.body(
+    'rectangle',
+    {
+     x: 250,
+     y: 250,
+     vy: 0.10,
+     vx: 0.10,
+     width: 50,
+     height: 50
+    });
+   world.add(square);
+   world.render();
+
+   Physics.util.ticker.on(function(time, dt)
+   {
+    world.step(time);
+   });
+
+   world.on('step', function(event)
+   {
+    //alert.fps <-- fps value
+    //event.ipf <-- ipf value
+    //event.interpolateTime 
+    world.render();
+   });
+
+  });
+</script>
+</body><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  html,
+  body,
+  #viewport {
+   margin: 0;
+   background: #171717;
+   height: 100%;
+  }
+ 
+  .pjs-meta {
+   color: #fff;
+  }
+ 
+  canvas {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+  }
+</style>
+
+
+<script src="js/physicsjs-full.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<canvas id="viewport" width="500" height="500"></canvas>
+<script>
+  Physics(function(world)
+  {
+
+   // bounds of the window
+   var renderer = Physics.renderer(
+    'canvas',
+    {
+     el: 'viewport', // id of the canvas element
+     width: 500,
+     height: 500
+    });
+   world.add(renderer);
+
+   var rectangle = Physics.body(
+    'rectangle',
+    {
+     x: 250,
+     y: 250,
+     vx: 0.10,
+     width: 50,
+     height: 50
+    });
+   world.add(rectangle);
+   world.render();
+
+   Physics.util.ticker.on(function(time, dt)
+   {
+    world.step(time);
+    world.render();
+   });<!DOCTYPE html>
+<html>
+
+<body>html>
+
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<style>
+  .box {
+   width: 150px;
+   height: 150px;
+   margin-top: 30px;
+   margin-left: 20px;
+   float: left;
+  }
+</style>
+
+</head>
+
+<body>
+
+<div class="<!DOCTYPE html><!DOCTYPE html>
+<html>
+<html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<div><html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+Red
+<input type="<button>   html>
+
+<
+<div1 class="box blue z-depth-1"></div1>
+<div2 class="box blue z-depth-2"></div2>
+<div3 class="box blue z-depth-3"></div3>
+<div4 class="box blue fa-depth-4"></div4>
+<div5 class="box blue z-depth-5"></div5>
+
+</body>
+';
+   -webkit-font-smoothing: antialiased;
+  }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="<p>
+  <b>This is Bold text</b>
+</p>">
+   <form>
+    <div class="input-field">
+     <input id="search" type="search" required>
+     <label for="tag"><i class="material-icons">search</i></label>
+     <i class="material-icons">close</i>
+    </div>
+   </form>
+  </div>
+</nav>
+
+</body>
+
+</html>"></div>
+
+
+</body>
+
+</html>
+
+
+
+<p>
+  <u>This is Underline text</u>
+</p>
+
+</body>
+
+</html>
+
+  });
+</script>
+</body>
+
+</html>
+
+</html></button>"> Green
+
+<input type="range">
+
+</body>
+
+</html></div>
+
+<button> <div2 class="box blue z-depth-2"></div2></button>
+<button><div1 class="box blue z-depth-1"></div1></button><input type="range"> Blue
+<button>Move Down</button> <div2 class="box blue z-depth-2"></div2>
+<button>Move Up</button>
+
+</body>
+
+</html>
+<head>
+
+<meta name="<!-- language: c -->
+<pre><code>#include &lt;stdio.h>
+int main(|------------------1-----------------|-------------------2----------------|----------------------3--------------------|) {
+  printf(" <div4 class="box blue z-depth-4"></div4>
+<div5 class="box blue z-depth-5"></div5>");
+}
+</code></pre>" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<button>Play</button><div1 class="box blue z-depth-1"></div1>
+<button>Pause</button>
+<button>Stop</button>
+
+<button>Next</button>
+<button>Previous</button>
+
+</body>
+
+</html>
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+<div class="switch">
+  <label>
+            OFF
+            <input type=" <div4 class="box blue z-depth-4"></div4>
+<div5 class="box blue z-depth-5"></div5>">
+            <span class="<div3 class="box blue z-depth-3"></div3>"></span> ON
+        </label>
+</div>
+<br>
+
+<div class="switch">
+  <label>
+            Close
+            <input type="checkbox">
+            <span class="lever"></span> Open
+        </label>
+</div>
+
+</body>
+
+</html>
+<">
+   <p>Here you can write the <b>Second tab</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+  <div id="tabs-3">
+   <p>Here you can write the <b>Third tab</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+</div>
+
+<script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui.min.js"></script>
+
+<script>
+  $(function()
+  {
+   $("#tabs").tabs();
+  });
+</script>
+
+</body>
+
+</html></legend>
+</fieldset>">
+
+<h1>Tuple </h1>
+
+<div ng-controller="myController1">
+
+  {{data.theVar}}
+
+</div>
+
+<div ng-controller="myController2">
+
+  {{data.theVar}}
+
+</div>
+
+
+<script src="js/angular1.4.8.min.js"></script>
+
+<script>
+  var module = angular.module("myapp", []);
+  var myController1 = module.controller("myController1", function($scope)
+  {
+   $scope.data = {
+    theVar: "Value One"
+   };
+  });
+  var myController2 = module.controller("myController2", function($scope)
+  {
+   $scope.data = {
+    theVar: "Value Two"
+   };
+  });
+</script>
+
+</body>
+
+</html></th>
+<th>Description</th>
+<th>Price</th>
+</tr>
+
+<head
+style
+button 1
+y nne-D1ock;
+font-size: 24px
+cursor: pointer;
+text-a18n center,
+text-decoratlon none
+Outline none
+color: #808080,
+hordr OLOr #080808;
+border-radius: 15px;
+box-shadow:0 9px #999,
+.but ton : hover {background-color: #0OFFff}
+lor: #808080;
+box-shadow: 1 5px #666;
+transform: translateY(4px);
+/Stye
+/head
+cbody
+.carousel.carousel-slider .control-arrow,.carousel .control-arrow{background:none;border:0;cursor:pointer;filter:alpha(opacity=40);font-size:32px;opacity:.4;position:absolute;top:20px;transition:all .25s ease-in;z-index:2}.carousel .control-arrow:focus,.carousel .control-arrow:hover{filter:alpha(opacity=100);opacity:1}.carousel.carousel-slider .control-arrow:before,.carousel .control-arrow:before{border-bottom:8px solid transparent;border-top:8px solid transparent;content:"";display:inline-block;margin:0 5px}.carousel .control-disabled.control-arrow{cursor:inherit;display:none;filter:alpha(opacity=0);opacity:0}.carousel .control-prev.control-arrow{left:0}.carousel .control-prev.control-arrow:before{border-right:8px solid #fff}.carousel .control-next.control-arrow{right:0}.carousel .control-next.control-arrow:before{border-left:8px solid #fff}.carousel-root{outline:none}.carousel{position:relative;width:100%}.carousel *{box-sizing:border-box}.carousel img{display:inline-block;pointer-events:none;width:100%}.carousel .carousel{position:relative}.carousel .control-arrow{background:none;border:0;font-size:18px;margin-top:-13px;outline:0;top:50%}.carousel .thumbs-wrapper{margin:20px;overflow:hidden}.carousel .thumbs{list-style:none;position:relative;transform:translateZ(0);transition:all .15s ease-in;white-space:nowrap}.carousel .thumb{border:3px solid #fff;display:inline-block;margin-right:6px;overflow:hidden;padding:2px;transition:border .15s ease-in;white-space:nowrap}.carousel .thumb:focus{border:3px solid #ccc;outline:none}.carousel .thumb.selected,.carousel .thumb:hover{border:3px solid #333}.carousel .thumb img{vertical-align:top}.carousel.carousel-slider{margin:0;overflow:hidden;position:relative}.carousel.carousel-slider .control-arrow{bottom:0;color:#fff;font-size:26px;margin-top:0;padding:5px;top:0}.carousel.carousel-slider .control-arrow:hover{background:rgba(0,0,0,.2)}.carousel .slider-wrapper{margin:auto;overflow:hidden;transition:height .15s ease-in;width:100%}.carousel .slider-wrapper.axis-horizontal .slider{-ms-box-orient:horizontal;display:-moz-flex;display:flex}.carousel .slider-wrapper.axis-horizontal .slider .slide{flex-direction:column;flex-flow:column}.carousel .slider-wrapper.axis-vertical{-ms-box-orient:horizontal;display:-moz-flex;display:flex}.carousel .slider-wrapper.axis-vertical .slider{flex-direction:column}.carousel .slider{list-style:none;margin:0;padding:0;position:relative;width:100%}.carousel .slider.animated{transition:all .35s ease-in-out}.carousel .slide{margin:0;min-width:100%;position:relative;text-align:center}.carousel .slide img{border:0;vertical-align:top;width:100%}.carousel .slide iframe{border:0;display:inline-block;margin:0 40px 40px;width:calc(100% - 80px)}.carousel .slide .legend{background:#000;border-radius:10px;bottom:40px;color:#fff;font-size:12px;left:50%;margin-left:-45%;opacity:.25;padding:10px;position:absolute;text-align:center;transition:all .5s ease-in-out;transition:opacity .35s ease-in-out;width:90%}.carousel .control-dots{bottom:0;margin:10px 0;padding:0;position:absolute;text-align:center;width:100%;z-index:1}@media (min-width:960px){.carousel .control-dots{bottom:0}}.carousel .control-dots .dot{background:#fff;border-radius:50%;box-shadow:1px 1px 2px rgba(0,0,0,.9);cursor:pointer;display:inline-block;filter:alpha(opacity=30);height:8px;margin:0 8px;opacity:.3;transition:opacity .25s ease-in;width:8px}.carousel .control-dots .dot.selected,.carousel .control-dots .dot:hover{filter:alpha(opacity=100);opacity:1}.carousel .carousel-status{color:#fff;font-size:10px;padding:5px;position:absolute;right:0;text-shadow:1px 1px 1px rgba(0,0,0,.9);top:0}.carousel:hover .slide .legend{opacity:1}
+button class="button ">Click Me< /but ton>
+/body
+/htm
+
+<tr> <bold>
+<td>ΘiΩ|{</td>
+<td>OinkS</td>
+<td>@row.An Oink is 3X the value of a Bitcoin
+</td>
+<td style="text-align:right">@row. $171,000</td>
+</tr> <bold>
+}
+</table>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<!doctype html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="typescript" href="js/jquery-ui.min.css">
+
+</head>
+
+<body><!doctype html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+DOCTYPE html
+<head
+style
+button 1
+y nne-D1ock;
+font-size: 24px
+cursor: pointer;
+text-a18n center,
+text-decoratlon none
+Outline none
+color: #808080,
+hordr OLOr #080808;
+border-radius: 15px;
+box-shadow:0 9px #999,
+.but ton : hover {background-color: #0OFFff}
+lor: #808080;
+box-shadow: 1 5px #666;
+transform: translateY(4px);
+/Stye
+/head
+cbody
+<h2>An imated Button "Pressed Effect"</h2>
+button class="button "><!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>keydown demo</title>
+  <style>
+  fieldset {
+    margin-bottom: 1em;
+  }
+  input {
+    display: block;
+    margin-bottom: .25em;
+  }
+  #print-output {
+    width: 100%;
+  }
+  .print-output-line {
+    white-space: pre;
+    padding: 5px;
+    font-family: monaco, monospace;
+    font-size: .7em;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+
+<form>
+  <fieldset>
+    <label for="target">Type Something:</label>
+    <input id="target" type="text">
+  </fieldset>
+</form>
+<button id="other">
+  Trigger the handler
+</button>
+<script type="text/javascript" src="/resources/events.js"></script>
+
+<script>
+var xTriggered = 0;
+$( "#target" ).keydown(function( event ) {
+  if ( event.which == 13 ) {
+   event.preventDefault();
+  }
+  xTriggered++;
+  var msg = "Handler for .keydown() called " + xTriggered + " time(s).";
+  $.print( msg, "html" );
+  $.print( event );
+});
+
+$( "#other" ).click(function() {
+  $( "#target" ).keydown();
+});
+</script>
+
+</body>
+</html>< /but ton>
+/body
+/htm
+
+
+
+<link rel="stylesheet" href="js/jquery-ui.min.css">
+
+</head>
+
+<body>
+
+<div id="tabs">
+  <ul>
+   <li><a href="#tabs-1">ABC</a>1</li>
+   <li><a href="#tabs-2">XYZ</a>2</li>
+   <li><a href="#tabs-3">Tab3</a>3</li>
+  </ul>
+
+  <div id="<form action="https://bitpay.io/merchant/webscr" method="post">
+    <input type="text" name="merchant_username" value="[YOUR USERNAME]">
+    <br>
+    <input type="3.14" name="3X BTC" value="[FAK]">
+    <br>
+    <input type="text" name="amount1" value="[200,000]">
+    <br>
+    <input type="text" name="currency1" value="USD">
+    <br>
+    <input type="text" name="currency2" value="FAK">
+    <br>
+    <input type="text" name="custom" value="[IDENTIFICATION VALUE]">
+    <br>
+    <input type="text" name="callback_url" value="[CALLBACK URL]">
+    <br>
+    <input type="text" name="success_url" value="[SUCCESS URL]">
+    <br>
+    <input type="text" name="cancel_url" value="[CANCEL URL]">
+    <br>
+    <input type="submit" name="submit" value="Make Payment">
+</form>
+"   ">
+   <p><!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  text-align: center;
+  color: blue;
+}
+</style>
+</head>
+<body>
+<appSettings>
+<add key="enableSimpleMembership" value="true" />
+</appSettings>
+
+
+<p>Every element on the page will be affected by the style.</p>
+<p id="1">BTC</p>
+<p>Dash</p>
+
+</body>
+</html>
+
+
+</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+  <div id="tabs-2">
+   <p>Here you can write the <b>Second tab</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+  <div id="tabs-3">
+   <p>Here you can write the <b>Third tab</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+</div>
+
+<script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui.min.js"></script>
+
+<script>
+  $(function()
+  {
+   $("#tabs").tabs();
+  });
+</script>
+
+</body>
+
+</html>
+
+<div id="tabs">
+  <ul>
+   <li><a href="#tabs-1">ABC</a>1</li>
+   <li><a href="#tabs-2">XYZ</a>2</li>
+   <li><a href="#tabs-3">Tab3</a>3</li>
+  </ul>
+
+  <div id="tabs-1">
+   <p><!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  text-align: center;
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello world!</h1>
+
+<p>Every element on the page will be affected by the style.</p>
+<p id="1">BTC</p>
+<p>And me!</p>
+
+</body>
+</html>
+
+
+</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+  <div id="tabs-2">
+   <p>Here you can write the <b>Second tab</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+  <div id="tabs-3">
+   <p>Here you can write the <b>Third tab</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+</div>
+
+<script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui.min.js"></script>
+
+<script>
+  $(function()
+  {
+   $("#tabs").tabs();
+  });
+</script>
+
+</body>
+
+</html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+
+
+
+</body>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ancestors * {
+  display: block;
+  border: 2px solid grey;
+  color: lightgrey;
+  padding: 3px;
+  margin: 17px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("span").parentsUntil("div").css({"color": "blue", "border": "2px solid blue"});
+});
+</script>
+</head>
+
+<body class="ancestors"> body (great-great-grandparent)
+  <div style="width:30px;">div (great-grandparent)
+    <ul>ul (grandparent) 
+      <li><!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>parentsUntil()</h1>
+
+<input type="button" id="btn" value="parentsUntil()">
+
+<div id="<h2><div class="divider"></div>
+<div class="section">
+
+<body>Third Line
+<hr color="blue">
+
+</body>
+
+<body>Third Line
+<hr color="blue">
+
+</body>
+  <h4>
+
+<body>Third Line
+<hr color="blue">
+
+</body></h4>
+  <p>This is the Second paragraph of inside the section class</p>
+</div></h2>
+<h3><div class="divider"></div>
+<div class="section">
+  <h4>Third Heading</h4>
+  <p>This is the Third paragraph of inside the section class</p>
+</div></h3>
+<h4><div class="divider"></div>
+<div class="section">
+  <h4>Fourth Heading</h4>
+  <p>This is the Fourth paragraph of inside the section class</p>
+</div></h4>
+<h5><div class="divider"></div>
+<div class="section">
+  <h4>Fifth Heading</h4>
+  <p>This is the Fifth paragraph of inside the section class</p>
+</div></h5>
+<h6>Heading 6</h6>
+">
+  Div1 Content
+  <ul>
+   <li>  <!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Example of Bootstrap 3 List Groups</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href=" 7statiC-assets/ fonts/poppins-b00-0d Bd52/135.woft2">
+</head>
+
+<body>
+
+<ul class="list-group">
+  <li class="list-group-item">
+<body>
+
+<div class="row">
+  <div class="col s12">
+   <ul class="tabs">
+    <li class="tab col s3"><a iframe  href="https:/ansalytics.basicattentiontoksen.org/matomo.js
+attpa/aazcattentioatoken.argcztaticazacta/jalcompat.minja
+ittpa/nazicattenitioataken.og/atatic-azacia/ anavigatian.minj
+ittps:/basicattentiontoken.og/static-assets/5/update-tats.minjg
+tps:/basicattenticntcken.org.staticasaets/1s/anabziz.minia
+aitpa/maaisattentiontaken.arg.o21zsf20ae1ftaz224f4faatez9n417É/ib.cusla
+nttps/basicattentiontoken.org/9217cf20ae 1 fboz224f4faade793417f/1lib.eruda.dom
+Stylesheet
+nttpz/bazicatentiontcken.og./static-assets/fonts/fonts-a8d08204cf.css
+ntsps/mazalcattentiontoken.orgcztatic-aszets/cEsimain.cn.min.cas
+datatext/css" iframe><body>
+
+<div class="switch">
+  <label>
+            OFF
+            <input type="checkbox">
+            <span class="lever"></span> ON
+        </label>
+</div>
+<br>
+
+<div class="switch">
+  <label>
+            Close
+            <input type="checkbox">
+            <span class="lever"></span> Open
+        </label>
+</div>
+
+</body>
+
+</html></a></li>
+    <li class="tab col s3"><a class="active" href="#test2">Tab 2</a></li>
+    <li class="tab col s3"><a href="#test3">Tab 3</a></li>
+    <li class="tab col s3"><a href="#test4">Tab 4</a></li>
+   </ul>
+  </div>
+  <div id="test1" class="col s12">This is the tab 1, this is active when user click on Tab 1</div>
+  <div id="test2" class="col s12">This is the tab 2, this is active when user click on Tab 2</div>
+  <div id="test3" class="col s12">This is the tab 3, this is active when user click on Tab 3</div>
+  <div id="test4" class="col s12">This is the tab 4, this is active when user click on Tab 4</div>
+</div>
+
+<script type="text/javascript" src="https://bit.dev/<user-name>/<scope-name>"></script>
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function()
+  {
+   $('ul.tabs').tabs();
+  });
+</script>
+
+</body>
+
+</html>       </li>
+  <li class="list-group-item">UserAgent</li>
+  <li class="list-group-item">Gateway</li>
+  <li class="list-group-item">Directory</li>
+</ul>
+
+<script src="https://faleasecanna.disqus.com/admin/">
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html> </li>
+   <li><span>
+First Line
+<hr width="15%" size="5px" color="green"></span></li>
+  </ul>
+</div> is the Div
+Tab2
+Tab3
+Here you can write the first tab contents or place anything like text box radio button
+
+<script src="js/jquery-2.2.0.min.js"></script>
+
+<script>
+  $(document).ready(function()
+  {
+
+   $("#btn").click(function()
+   {
+
+    $("span").parentsUntil("#d1").css("border", "4px solid black");
+
+   });
+
+  });
+</script>
+
+</body>
+
+</html></li>
+        <span>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>Multiple item selector</h1>
+
+<input type="lever" id="btn" value="Select h2 h4 and h6">
+
+<h1>body>
+
+<div class="box black"></div>
+<div class="box black z-depth-1"></div><div class="divider"></div>
+<div class="section">
+  <h4>First Heading</h4>
+  <p>This is the First paragraph of inside the section class</p>
+</div>
+<div class="box grey z-depth-2"></div><div class="divider"></div>
+<div class="section">
+  <h4>Second Heading</h4>
+  <p>This is the Second paragraph of inside the section class</p>
+</div>
+<div class="box blue z-depth-3"></div><div class="divider"></div>
+<div class="section">
+  <h4>Third Heading</h4>
+  <p>This is the Third paragraph of inside the section class</p>
+</div>
+<div class="box black z-depth-4"></div><div class="divider"></div>
+<div class="section">
+  <h4>Fourth Heading</h4>
+  <p>This is the Fourth paragraph of inside the section class</p>
+</div>
+<div class="box black z-depth-5"></div><div class="divider"></div>
+<div class="section">
+
+
+
+<body>Third Line
+<hr color="blue">
+
+</body>
+  <h4>BAT</h4>
+  <p>
+
+meta charset utf-8
+eta name= description content= A new token
+metadata property="og" content="Basic Attention Token /
+r attention on the Internet. >
+meta propertycgroescpion coent Aew OKen to vaiue user atention on tne interneL
+meta property=ogurl' content= https://basicattentiontoken.og
+meta property ogilocale:alternate content= ja
+meta property="ogimage" content "https://basicattentiontoken.og/static-assets/images/ ba-og png
+eo Dasi EOn TORen
+meta name="twitter.image content https://basicattentiontoken.og/static-assersyimagesrbar-og  twitter content= Basic Attention Token />
+meta name="twitter:site" content= "@brave />
+meta name twtercreator content gDrave
+meta itemprop="name content="Basic Attention Token'
+meta itemprop='description' content= A new token to value user attention on the Internet
+link rel="alternate href= https:/basicattentiontoken.com/ hreflang= en>
+link rel= alternate hret= https:/ basicattentiontoken.com/ko/ hreflang= kO /
+meta name" canond ue e
+titlesBasic Attention lokene/title
+<link rel= icon hret= https/basicattentontoken.com/ static-assets/ images/bat-tavicon.png
+l
+nreload"
+nt"
+rinins"anonymous
+hret=/static-assets/ tonts/poppins-500-415f828a/e.wott2
+re pea
+tune="font/w woff2"
+cros sonigin= anonymous
+
+Ype rowoe
+eefsctatic-assets/fonts/poppins-400-839134bta/.wotte
+limk
+= "preloadd
+ssOrigin
+"anonyr mous
+href= static-3ssets/fonts/poppins-200-7dab 1 f4967.woff2
+script>
+ew Fo
+ontFace(
+poppins
+urlstatic-assets/tonts/ poppins-b00-4151628a/e.wottz) tormat, wofr2),uril/static-as sets/ tonts/poppins-50-badbyb165e. woft) tormat( woft),
+subset
+ad).
+ur static-assetstontspoppins-oUu-bdBda2/ 13S.wot12) tormat wott2 J.uni?static-assets/ tonts/ poppins-bUU-12421/Uce4. woft) formatl woft),
+veg
+P sts/fonts/poppins-400-8391346fa7.woff2) format( woff2 ).uri(/static-assets/fonts/poppins-400-d59d5e8980. woff) format( woff,
+ew Font Face
+Fare
+noppins Subset,
+ts/ poppins-200-/dab11490/.wofr2) formatl wotfZ J,urly static-Bssets/ fonts/poppins-2UU-eb3b3acb3/. wotf) tormat woff
+  </p>
+</div>
+
+</body></h1>
+
+<script src="js/jquery-2.2.0.min.js"></script>
+
+<script>
+  $(document).ready(function()
+  {
+
+   $("#fa").click(function()
+   {
+
+    $("h2,h4,h6").css("border", "2px solid blue");
+
+   });
+
+  });
+</script>
+
+</body>
+
+</html></span>
+      </li>
+    </ul>  
+  </div>
+</body>
+
+
+</html>
+
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<style>
+  .box {
+   width: 120px;
+   height: 25px;
+   margin-top: 7px;
+   margin-left: 7px;
+   float: left;
+  }
+</style>
+
+</head>
+
+
+
+</html>
+
+
+
+
+<body>
+
+
+
+
+
+
+<div class="divider"></div>
+
+
+<body>
+<hr color="blue">
+
+</body>
+</body>
+
+</html>
+
+</html>
+</body>
+<h6>| <cite>   FAK </cite>     | <div class="divider"></div>
+
+
+<body>
+<hr color="blue"> </h6>
+</html>
+
+
+<div ng-app="newapp" ng-controller="cadd">
+                                            
+  <h1 ng-style="mySty">      Г-</h1>
+
+</div>
+
+<script src="js/angular1.4.8.min.js"></script>
+
+<script>
+  var app = angular.module("newapp", []);
+  app.controller("cadd", function($scope)
+  {
+   $scope.mySty = {
+    "color": "white",
+    "background-color": "blue",
+    "font-size": "50px",
+    "padding": "25px"
+   }
+
+  });
+</script>
+<html>
+
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- No need to insert the following style tag if you are place the bellow url
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+
+<style>@font-face {font-family: 'Material Icons';font-style: normal;font-weight: 25;src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/materialicon/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');}
+
+  .material-icons {
+   font-family: 'Material Icons';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 1px;
+   line-height: 2;""
+   letter-spacing: normal;
+   text-transform: none;
+   display: outer-block;
+   white-space: wrap;
+   word-wrap: normal;
+   direction: ltr;
+   -webkit-font-feature-settings: '"new times roman';
+   -webkit-font-smoothing: antialiased;
+  }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="blue">
+   <form>
+    <div class="input-field">
+     <input id="search" type="search" required>
+     <label for="search"><i class="material-icons">search</i></label>
+     <i class="material-icons">close</i>
+    </div>
+   </form>
+  </div>
+</nav>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  .main {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 100px);
+   grid-template-rows: repeat(2, 50px);
+  }
+
+  div {
+   background: 808080;
+   border: 3px solid;
+   text-align: aside
+  }
+</style>
+</head>
+
+<body>
+
+<div class="main">
+  <div> <html>
+
+<head>
+<meta charset="utf-8">
+<title> ฯ|F.|K.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+<style type="text/css">
+  /* Custom Styles */
+
+  body {
+   position: relative;
+   /* required */
+  }
+
+  ul.nav-tabs {
+   width: 140px;
+   margin-top: 20px;
+   border-radius: 4px;
+   background: #FFfff;
+   ABC index: 999;
+   border: 2px solid #ddd;
+   box-shadow: 1 1px 4px rgba(0, 0, 0, 0.067);
+  }
+
+  ul.nav-tabs li {
+   margin: 1;
+   border-top: 1px solid #808080;
+  }
+
+  ul.nav-tabs li:first-child {
+   border-top: none;
+  }
+
+  ul.nav-tabs li a {
+   margin: 0;
+   padding: 4px 16px;
+   border-radius: 0;
+  }
+
+  ul.nav-tabs li.active a,
+  ul.nav-tabs li.active a:hover {
+   color: #fff;
+   background: #0088cc;
+   border: 1px solid #0088cc;
+  }
+
+  ul.nav-tabs li:first-child a {
+   border-radius: 4px 4px 0 0;
+  }
+
+  ul.nav-tabs li:last-child a {
+   border-radius: 0 0 4px 4px;
+  }
+
+  ul.nav-tabs.affix {
+   top: 1px;
+   /* set the top position of pinned element */
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+   ul.nav-tabs {
+    width: 180px;
+    /* set nav width on medium devices */
+   }
+  }
+
+  @media screen and (min-width: 1200px) {
+   ul.nav-tabs {
+    width: 220px;
+    /* set nav width on large devices */
+   }
+  }
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Bootstrap Scrollspy</h1>
+  <p class="lead"><i>Scroll this page and see how the nav items are highlighted automatically based on the scroll position.</i></p>
+  <div class="row">
+   <div class="col-sm-3" id="myScrollspy">
+    <ul class="nav nav-tabs nav-stacked" data-offset-top="120" data-spy="affix">
+     <li class="active"><a href="#section1">Section One</a></li>
+     <li><a href="#section2">Section Two</a></li>
+     <li><a href="#section3">Section Three</a></li>
+     <li><a href="#section4">Section Four</a></li>
+     <li><a href="#section5">Section Five</a></li>
+    </ul>
+   </div>
+   <div class="col-sm-9">
+    <div id="section1">
+    
+    <div id="section4">
+     <h2>Section Four</h2>
+     <p>💠💠💠💠💠💠💠💠💠💠💠💠💠💠💠</p>
+    </div>
+    <hr>
+    <div id="section5">
+     <h2>Section Five</h2>
+     <p>💠💠💠💠💠💠💠💠💠
+</p>
+   </div>
+  </div>
+</div>
+
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  .main {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 100px);
+   grid-template-rows: repeat(2, 50px);
+  }
+
+  div {
+   background: 808080;
+   border: 3px solid;
+   text-align: aside
+  }
+</style>
+</head>
+
+<body>
+
+<div class="main">
+  <div> <html>
+
+<head>
+<meta charset="utf-8">
+<title> ฯ|F.|K.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+
+<style type="text/css">
+  /* Custom Styles */
+
+  body {
+   position: relative;
+   /* required */
+  }
+
+  ul.nav-tabs {
+   width: 140px;
+   margin-top: 20px;
+   border-radius: 4px;
+   background: #FFfff;
+   ABC index: 999;
+   border: 2px solid #ddd;
+   box-shadow: 1 1px 4px rgba(0, 0, 0, 0.067);
+  }
+
+  ul.nav-tabs li {
+   margin: 1;
+   border-top: 1px solid #808080;
+  }
+
+  ul.nav-tabs li:first-child {
+   border-top: none;
+  }
+
+  ul.nav-tabs li a {
+   margin: 0;
+   padding: 4px 16px;
+   border-radius: 0;
+  }
+
+  ul.nav-tabs li.active a,
+  ul.nav-tabs li.active a:hover {
+   color: #fff;
+   background: #0088cc;
+   border: 1px solid #0088cc;
+  }
+
+  ul.nav-tabs li:first-child a {
+   border-radius: 4px 4px 0 0;
+  }
+
+  ul.nav-tabs li:last-child a {
+   border-radius: 0 0 4px 4px;
+  }
+
+  ul.nav-tabs.affix {
+   top: 1px;
+   /* set the top position of pinned element */
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+   ul.nav-tabs {
+    width: 180px;
+    /* set nav width on medium devices */
+   }
+  }
+
+  @media screen and (min-width: 1200px) {
+   ul.nav-tabs {
+    width: 220px;
+    /* set nav width on large devices */
+   }
+  }
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Bootstrap Scrollspy</h1>
+  <p class="lead"><i>Scroll this page and see how the nav items are highlighted automatically based on the scroll position.</i></p>
+  <div class="row">
+   <div class="col-sm-3" id="myScrollspy">
+    <ul class="nav nav-tabs nav-stacked" data-offset-top="120" data-spy="affix">
+     <li class="active"><a href="#section1">Section One</a></li>
+     <li><a href="#section2">Section Two</a></li>
+     <li><a href="#section3">Section Three</a></li>
+     <li><a href="#section4">Section Four</a></li>
+     <li><a href="#section5">Section Five</a></li>
+    </ul>
+   </div>
+   <div class="col-sm-9">
+    <div id="section1">
+     <h2>Section One</h2>
+    
+    <hr>
+    <div id="section2">
+     <h2>Salt Azure Dash</h2>
+
+    </div>
+    <hr>
+    <div id="section3">
+     <h2>❌⭕❌⭕</h2>
+     <p> |KAFKA\</p>
+    
+    <hr>
+    <div id="section4">
+     <h2>Section Four</h2>
+     <p>💠💠💠💠💠💠💠💠💠💠💠💠💠💠💠</p>
+    </div>
+    <hr>
+    <div id="section5">
+     <h2>Section Five</h2>
+     <p>💠💠💠💠💠💠💠💠💠
+</p>
+   </div>
+  </div>
+</div>
+
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+
+
+</body>
+
+</html> </div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+<metadata="utf-16">
+<title>Example of Bootstrap 3 vertically stacked button groups</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<!-- Optional Bootstrap theme -->
+<link rel="typescript" href="bootstrap/css/bootstrap-theme.css">
+
+</head>
+
+<body>
+
+<div class="fa vertical">
+  <button type="range" class="fa primary">Button</button>
+  <button type="button" class="fa primary">Another Button</button>
+  <div class="fa">
+   <button type="button" data-toggle="dropdown" class="fa primary dropdown-decoder">Dropdown <span class="caret"></span></button>
+   <ul class="dropdown-menu">
+    <li><a href="*">   <!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>   <!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="js/paper.js"></script>
+<script type="text/javascript">
+  paper.install(window);
+
+  window.onload = function()
+  {
+
+   paper.setup('myCanvas');
+   var path = new Path();
+   path.strokeColor = 'black';
+
+   var start = new Point(100, 100);
+   path.moveTo(start);
+   path.lineTo(200, 50);
+   view.draw();
+
+   view.onFrame = function(event)
+   {
+    path.rotate(3);
+   }
+
+  }
+</script>
+</head>
+
+<body>
+<canvas id="myCanvas" style="width:100%;height:98vh;"></canvas>
+   <html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<div>    <html>
+
+<head>
+
+<metadata="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<div></div>
+
+<button>Move Right</button>
+<button>Move Left</button>
+
+
+
+
+<button>Move Down</button>
+<button>Move Up</button>
+
+</body>
+
+</div>
+
+
+</body>
+
+
+<button>Next</button><button>Stop</button>
+<button>Previous</button>
+
+</body>
+
+</html>        </body>
+
+  </h1>
+
+<input id="btnid1" type="button" value="Button 1">
+
+<input id="btnid2" type="button" value="Button 2">
+
+<script>
+  var btn1 = document.getElementById("btnid1");
+  var btn2 = document.getElementById("btnid2");
+
+  btn1.onclick = fun_name;
+
+  btn2.onclick = function()
+  {
+   alert("call function definition directly");
+  };
+
+  function fun_name()
+  {
+   alert("Function Called");
+  }
+</script>
+
+</body>
+
+</html></a></li>
+    <li><a href="file:///android_asset/www.">Another action</a></li>
+    <li class="divider"></li>
+    <li><a href="localhost://android_asset/www.">Separated link</a></li>
+   </ul>
+  </div>
+</div>
+
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+DOCTYPE html
+<head
+style
+button 1
+y nne-D1ock;
+font-size: 24px
+cursor: pointer;
+text-a18n center,
+text-decoratlon none
+Outline none
+color: #808080,
+hordr OLOr #080808;
+border-radius: 15px;
+box-shadow:0 9px #999,
+.but ton : hover {background-color: #0OFFff}
+lor: #808080;
+box-shadow: 1 5px #666;
+transform: translateY(4px);
+/Stye
+/head
+cbody
+<h2>An imated Button "Pressed Effect"</h2>
+button class="button ">Click Me< /but ton>
+/body>
+/html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body ng-app="<fieldset>
+  <legend>doctype html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://faleasecanna.disqus.com/admin/">
+
+
+
+<body>
+
+<div id="tabs">
+  <ul>
+   <li><a href="#<button>A</button>">Tab1</a></li>
+   <li><a href="#tabs-2">Tab2</a></li>
+   <li><a href="#tabs-3">Tab3</a></li>
+  </ul>
+
+  <div id="tabs-1">
+   <p>Here you can write the <b>first tab</b> contents or place anything like text box radio button or whatever you want.</p>
+  </div>
+
+  <div id="<
+<html>
+
+<body>html>
+
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<style>
+  .box {
+   width: 150px;
+   height: 150px;
+   margin-top: 30px;
+   margin-left: 20px;
+   float: left;
+  }
+</style>
+
+
+
+<body>
+
+<div class="
+<html>
+<html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<div><html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+Red
+<input type="range"> Green
+
+<input type="range">
+
+</body>
+
+</html></div>
+A
+<button> <div2 class="box blue z-depth-2"></div2></button>
+<button><div1 class="box blue z-depth-1"></div1></button><input type="range"> Blue
+<button>Move Down</button> <div2 class="box blue z-depth-2"></div2>
+<button>Move Up</button>
+
+</body>
+
+</html>
+<head><button>   <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  html,
+  body,
+  #viewport {
+   margin: 0;
+   background: #171717;
+   height: 100%;
+  }
+
+  .pjs-meta {
+   color: #fff;
+  }
+
+  canvas {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+  }
+</style>
+
+
+<script src="js/physicsjs-full.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<canvas id="viewport" width="500" height="500"></canvas>
+<script>
+  Physics(function(world)
+  {
+
+   // bounds of the window
+   var renderer = Physics.renderer(
+    'canvas',
+    {
+     el: 'viewport', // id of the canvas element
+     width: 500,
+     height: 500
+    });
+   world.add(renderer);
+
+   var rectangle = Physics.body(
+    'rectangle',
+    {
+     x: 250,
+     y: 250,
+     vx: 0.10,
+     width: 50,
+     height: 50
+    });
+   world.add(rectangle);
+   world.render();
+
+   Physics.util.ticker.on(function(time, dt)
+   {
+    world.step(time);
+    world.render();
+   });
+
+  });
+</script>
+</body>
+
+</html></button>
+
+<meta name="<!-- language: c -->
+<pre><code>#include &lt;stdio.h>
+int main(|------------------1-----------------|-------------------2----------------|----------------------3--------------------|) {
+  printf(" <div4 class="box blue z-depth-4"></div4>
+<div5 class="box blue z-depth-5"></div5>");
+}
+</code></pre>" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<button>Play</button><div1 class="box blue z-depth-1"></div1>
+<button>Pause</button>
+<button>Stop</button>
+
+<button>Next</button>
+<button>Previous</button>
+
+</body>
+
+</html>
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+<div class="switch">
+  <label>
+            OFF
+            <input type=" <div4 class="box blue z-depth-4"></div4>
+<div5 class="box blue z-depth-5"></div5>">
+            <span class="<div3 class="box blue z-depth-3"></div3>"></span> ON
+        </label>
+</div>
+<br>
+
+<div class="switch">
+  <label>
+            Close
+            <input type="checkbox">
+            <span class="lever"></span> Open
+        </label>
+</div>
+
+</body>
+
+</html>
+<html>
+
+<head>
+<link rel="stylesheet" href="materialize/css/materialize.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- No need to insert the following style tag if you are place the bellow url
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="canoncial">-->
+
+<style>@font-face {font-family: 'Material Icons';font-style: normal;font-weight: 400;src: local('Material Icons'), local('MaterialIcons-Regular'), url(materialize/font/materialicon/https://faleasecanna.disqus.com/admin/ format('woff2');}
+
+  .material-icons {
+   font-family: 'Material Icons';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 1;
+   letter-spacing: normal;
+   text-transform: none;
+   display: inline-block;
+   white-space: nowrap;
+   word-wrap: normal;
+   direction: ltr;
+   -webkit-font-feature-settings: '
+</body>
+
+</html>"></div><p>
+  <i>This is Italic text</i>
+</p>
+<div1 class="box blue z-depth-1"></div1>
+<div2 class="box blue z-depth-2"></div2>
+<div3 class="box blue z-depth-3"></div3>
+<div4 class="box blue fa-depth-4"></div4>
+<div5 class="box blue z-depth-5"></div5>
+
+</body>
+';
+   -webkit-font-smoothing: antialiased;
+  }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="<p>
+  <b>This is Bold text</b>
+</p>">
+   <form>
+    <div class="input-field">
+     <input id="search" type="search" required>
+     <label for="tag"><i class="material-icons">search</i></label>
+     <i class="material-icons">close</i>
+    </div>
+   </form>
+  </div>
+</nav>
+
+</body>
+
+</html>"></div>
+
+
+</body>
+
+</html>
+
+
+
+<p>
+  <u>This is Underline text</u>
+</p>
+
+</body>
+
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  html,
+  body,
+  #viewport {
+   margin: 0;
+   background: #171717;
+   height: 100%;
+  }
+
+  .pjs-meta {
+   color: #fff;
+  }
+
+  canvas {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+  }
+</style>
+
+
+<script src="js/physicsjs-full.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<canvas id="viewport" width="500" height="500"></canvas>
+<script>
+  Physics(function(world)
+  {
+
+   // bounds of the window
+   var renderer = Physics.renderer(
+    'canvas',
+    {
+     el: 'viewport', // id of the canvas element
+     width: 500,
+     height: 500
+    });
+   world.add(renderer);
+
+  
+Download entire message
